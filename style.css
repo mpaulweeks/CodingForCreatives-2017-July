@@ -39,7 +39,7 @@ a {
   width: 498px;
   border-radius: 25px;
 }
-.week-first {
+.week:first-child {
   margin-top: inherit;
 }
 .week-title {
