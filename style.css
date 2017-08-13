@@ -5,6 +5,12 @@ body {
   height: 100%;
   margin: 0px;
 }
+div {
+  margin: auto;
+}
+.kermit {
+  width: 500px;
+}
 .container {
   text-align: center;
   padding-top: 2em;
@@ -14,9 +20,6 @@ body {
   background-color: #ec008c;
   color: white;
 }
-.kermit {
-
-}
 .title {
   font-size: 3em;
   font-weight: bold;
@@ -25,6 +28,21 @@ body {
   font-size: 2em;
   font-weight: bold;
 }
-.github {
+a {
   color: inherit;
+}
+.week {
+  border: 2px solid white;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-top: 1em;
+  width: 498px;
+  border-radius: 25px;
+}
+.week-first {
+  margin-top: inherit;
+}
+.week-title {
+  font-size: 1.5em;
+  font-weight: bold;
 }
