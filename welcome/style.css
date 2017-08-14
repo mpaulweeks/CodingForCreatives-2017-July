@@ -22,7 +22,7 @@ a {
 }
 
 #hero {
-  background-image: url(cat.gif);
+  background-color: black;
   background-position: center;
   background-size: cover;
   position: relative;
