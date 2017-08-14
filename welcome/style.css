@@ -1,0 +1,65 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: "museo-sans",serif;
+  height: 100%;
+  margin: 0px;
+}
+div {
+  margin: auto;
+}
+a {
+  color: inherit;
+}
+.container {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.pink {
+  background-color: #ec008c;
+  color: white;
+}
+
+#hero {
+  background-image: url(cat.gif);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 480px;
+
+  /*https://css-tricks.com/centering-css-complete-guide/#vertical-inline-multiple*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+  overflow: auto;
+}
+.title {
+  font-size: 48px;
+  font-weight: bold;
+}
+.subtitle {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.week {
+  border: 2px solid white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 16px;
+  width: 300px;
+  border-radius: 16px;
+}
+.week:first-child {
+  margin-top: inherit;
+}
+.week-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.github {
+  width: 100px;
+}
