@@ -16,6 +16,20 @@ div {
   padding-top: 2em;
   padding-bottom: 2em;
 }
+.hero {
+  background-image: url(https://media.giphy.com/media/XIqCQx02E1U9W/giphy.gif);
+  background-position: center;
+  background-size:cover;
+  position:relative;
+  width:100%;
+  height: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  resize: vertical;
+  overflow: auto;
+}
 .pink {
   background-color: #ec008c;
   color: white;
