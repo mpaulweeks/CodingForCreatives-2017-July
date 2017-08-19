@@ -1,0 +1,26 @@
+
+.test {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+#title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.working {
+  background-color: fuchsia;
+}
+
+.success,
+.test.true {
+  background-color: lightgreen;
+}
+
+.failure,
+.test.false {
+  background-color: lightsalmon;
+}
