@@ -19,5 +19,5 @@
     'cat',
   ];
   let randomHero = heros[Math.floor(Math.random() * heros.length)];
-  document.getElementById('hero').style.backgroundImage = `url(welcome/${randomHero}.gif)`;
+  document.getElementById('hero').style.backgroundImage = `url(img/${randomHero}.gif)`;
 })()
