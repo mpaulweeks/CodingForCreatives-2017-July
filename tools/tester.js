@@ -1,4 +1,4 @@
-window.Tester = function(assertions){
+window.Tester = function (assertions){
 
     let failures = 0;
     function start(){
@@ -41,10 +41,14 @@ window.Tester = function(assertions){
     function refute(message, value, data){
         assert(message, !value, data);
     }
+    function assertEqual(message, a, b){
+        assert(message, a === b, `Expected: ${a}. Got: ${b}.`)
+    }
     start();
     assertions({
         assert: assert,
         refute: refute,
+        assertEqual: assertEqual,
     });
     finish();
 };

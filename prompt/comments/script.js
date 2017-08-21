@@ -1,2 +1,2 @@
 
-window.GetAndDisplayComments('prompt', 'comments');
+window.Comments.GetAndDisplay('prompt', 'comments');

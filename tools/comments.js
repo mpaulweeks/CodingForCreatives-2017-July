@@ -1,7 +1,10 @@
 
-window.GetComments = function(key, callback){
+window.Comments = {};
+
+window.Comments.Get = function (key, callback){
+  // https://webdesign.tutsplus.com/tutorials/an-example-of-ajax-with-vanilla-javascript--cms-25763
   var request = new XMLHttpRequest();
-  request.onreadystatechange = function(){
+  request.onreadystatechange = function (){
     if(request.readyState === 4) {
       if(request.status === 200) {
         const comments = JSON.parse(request.responseText);
@@ -13,7 +16,7 @@ window.GetComments = function(key, callback){
   request.send();
 }
 
-window.GenerateCommentHtml = function(comments){
+window.Comments.GenerateHtml = function (comments){
   let commentHtml = '';
   comments.forEach(function (c){
     commentHtml += `
@@ -31,8 +34,8 @@ window.GenerateCommentHtml = function(comments){
   `;
 }
 
-window.GetAndDisplayComments = function(key, selectorId){
-  window.GetComments(key, function(comments){
-    document.getElementById(selectorId).innerHTML = GenerateCommentHtml(comments);
+window.Comments.GetAndDisplay = function (key, selectorId){
+  window.Comments.Get(key, function (comments){
+    document.getElementById(selectorId).innerHTML = window.Comments.GenerateHtml(comments);
   });
 }

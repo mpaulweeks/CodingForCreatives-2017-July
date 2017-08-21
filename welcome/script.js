@@ -14,10 +14,7 @@
   }
   document.getElementById('week-data').innerHTML = weekData;
 
-  let heros = [
-    'kermit',
-    'cat',
-  ];
-  let randomHero = heros[Math.floor(Math.random() * heros.length)];
+  var heros = ['kermit', 'cat'];
+  var randomHero = heros[Math.floor(Math.random() * heros.length)];
   document.getElementById('hero').style.backgroundImage = `url(img/${randomHero}.gif)`;
 })()
