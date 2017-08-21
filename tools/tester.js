@@ -38,10 +38,13 @@ window.Tester = function(assertions){
             </div>
         `;
     }
-
+    function refute(message, value, data){
+        assert(message, !value, data);
+    }
     start();
     assertions({
-        assert: assert
+        assert: assert,
+        refute: refute,
     });
     finish();
 };

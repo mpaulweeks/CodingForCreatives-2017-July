@@ -3,11 +3,11 @@ window.Tester(function(T){
   T.assert(
     'True is true?',
     true,
-    'Data for true'
+    'Data for true',
   );
-  T.assert(
-    'False is true?',
+  T.refute(
+    'False is false?',
     false,
-    'Data for false'
+    'Data for false',
   );
 });
