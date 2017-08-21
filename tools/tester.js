@@ -3,7 +3,7 @@ window.Tester = function (assertions){
     let failures = 0;
     function start(){
         document.body.innerHTML = `
-          <div id="title"></div>
+          <div id="title">encountered an error, check console</div>
           <hr/>
           <div id="results"></div>
         `;
@@ -37,18 +37,33 @@ window.Tester = function (assertions){
                 ${debug}
             </div>
         `;
+        return value;
     }
     function refute(message, value, data){
-        assert(message, !value, data);
+        return assert(message, !value, data);
     }
     function assertEqual(message, a, b){
-        assert(message, a === b, `Expected: ${a}. Got: ${b}.`)
+        return assert(message, a === b, `Expected: ${a}. Got: ${b}.`)
+    }
+    function assertCollectionEqual(message, a, b){
+        // https://stackoverflow.com/a/16436975/6461842
+        function arraysEqual(a, b) {
+          if (a === b) return true;
+          if (a == null || b == null) return false;
+          if (a.length != b.length) return false;
+          for (var i = 0; i < a.length; ++i) {
+            if (a[i] !== b[i]) return false;
+          }
+          return true;
+        }
+        return assert(message, arraysEqual(a, b), `Expected: ${a}. Got: ${b}.`)
     }
     start();
     assertions({
         assert: assert,
         refute: refute,
         assertEqual: assertEqual,
+        assertCollectionEqual: assertCollectionEqual,
     });
     finish();
 };

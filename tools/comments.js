@@ -1,4 +1,3 @@
-
 window.Comments = {};
 
 window.Comments.Get = function (key, callback){
@@ -35,7 +34,15 @@ window.Comments.GenerateHtml = function (comments){
 }
 
 window.Comments.GetAndDisplay = function (key, selectorId){
+  window.Comments.FilterAndDisplay(key, selectorId, function (comments){
+    return comments;
+  });
+}
+
+window.Comments.FilterAndDisplay = function (key, selectorId, filterFunc){
   window.Comments.Get(key, function (comments){
-    document.getElementById(selectorId).innerHTML = window.Comments.GenerateHtml(comments);
+    var filtered = filterFunc(comments);
+    var commentHtml = window.Comments.GenerateHtml(filtered)
+    document.getElementById(selectorId).innerHTML = commentHtml;
   });
 }
