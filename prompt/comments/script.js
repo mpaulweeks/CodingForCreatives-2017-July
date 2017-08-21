@@ -1,0 +1,2 @@
+
+window.GetAndDisplayComments('prompt', 'comments');
