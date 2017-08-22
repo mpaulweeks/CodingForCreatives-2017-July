@@ -1,6 +1,7 @@
-window.Comments = {};
+CFC = window;
+CFC.Comments = {};
 
-window.Comments.Get = function (key, callback){
+CFC.Comments.Get = function (key, callback){
   // https://webdesign.tutsplus.com/tutorials/an-example-of-ajax-with-vanilla-javascript--cms-25763
   var request = new XMLHttpRequest();
   request.onreadystatechange = function (){
@@ -15,7 +16,7 @@ window.Comments.Get = function (key, callback){
   request.send();
 }
 
-window.Comments.GenerateHtml = function (comments){
+CFC.Comments.GenerateHtml = function (comments){
   let commentHtml = '';
   comments.forEach(function (c){
     commentHtml += `
@@ -33,16 +34,16 @@ window.Comments.GenerateHtml = function (comments){
   `;
 }
 
-window.Comments.GetAndDisplay = function (key, selectorId){
-  window.Comments.FilterAndDisplay(key, selectorId, function (comments){
+CFC.Comments.GetAndDisplay = function (key, selectorId){
+  CFC.Comments.FilterAndDisplay(key, selectorId, function (comments){
     return comments;
   });
 }
 
-window.Comments.FilterAndDisplay = function (key, selectorId, filterFunc){
-  window.Comments.Get(key, function (comments){
+CFC.Comments.FilterAndDisplay = function (key, selectorId, filterFunc){
+  CFC.Comments.Get(key, function (comments){
     var filtered = filterFunc(comments);
-    var commentHtml = window.Comments.GenerateHtml(filtered)
+    var commentHtml = CFC.Comments.GenerateHtml(filtered)
     document.getElementById(selectorId).innerHTML = commentHtml;
   });
 }

@@ -1,6 +1,7 @@
-window.Caeser = {};
+CFC = window;
+CFC.Caeser = {};
 
-window.Caeser.ShiftChar = function (char, delta){
+CFC.Caeser.ShiftChar = function (char, delta){
   var charCode = char.toUpperCase().charCodeAt();
   var offset = 'A'.charCodeAt();
   charCode = charCode + delta;
@@ -8,10 +9,10 @@ window.Caeser.ShiftChar = function (char, delta){
   return String.fromCharCode(charCode);
 }
 
-window.Caeser.ShiftWord = function (word, delta){
+CFC.Caeser.ShiftWord = function (word, delta){
   var shifted = "";
   for (var i = 0; i < word.length; i++){
-    shifted += window.Caeser.ShiftChar(word.substring(i, i+1), delta);
+    shifted += CFC.Caeser.ShiftChar(word.substring(i, i+1), delta);
   }
   return shifted;
 }

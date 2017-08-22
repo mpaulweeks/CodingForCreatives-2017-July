@@ -4,4 +4,4 @@ function filterComments(comments){
   return comments;
 }
 
-window.Comments.FilterAndDisplay('prompt', 'comments', filterComments);
+CFC.Comments.FilterAndDisplay('prompt', 'comments', filterComments);

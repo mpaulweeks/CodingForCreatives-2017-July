@@ -1,4 +1,5 @@
-window.Tester = function (assertions){
+CFC = window;
+CFC.Tester = function (assertions){
 
     let failures = 0;
     function start(){
@@ -58,6 +59,8 @@ window.Tester = function (assertions){
         }
         return assert(message, arraysEqual(a, b), `Expected: ${a}. Got: ${b}.`)
     }
+
+    CFC.IsTest = true;
     document.addEventListener("DOMContentLoaded", function() {
         start();
         assertions({
@@ -67,5 +70,6 @@ window.Tester = function (assertions){
             assertCollectionEqual: assertCollectionEqual,
         });
         finish();
+        CFC.IsTest = false;
     });
 };

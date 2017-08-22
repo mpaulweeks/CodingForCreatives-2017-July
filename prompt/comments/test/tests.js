@@ -1,7 +1,7 @@
 
-window.Comments.FilterAndDisplay = function(){}
+CFC.Comments.FilterAndDisplay = function(){}
 
-window.Tester(function (T){
+CFC.Tester(function (T){
   var exists = T.assert(
     'filterComments is defined',
     typeof filterComments !== 'undefined',
