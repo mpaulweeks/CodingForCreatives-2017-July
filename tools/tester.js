@@ -58,12 +58,14 @@ window.Tester = function (assertions){
         }
         return assert(message, arraysEqual(a, b), `Expected: ${a}. Got: ${b}.`)
     }
-    start();
-    assertions({
-        assert: assert,
-        refute: refute,
-        assertEqual: assertEqual,
-        assertCollectionEqual: assertCollectionEqual,
+    document.addEventListener("DOMContentLoaded", function() {
+        start();
+        assertions({
+            assert: assert,
+            refute: refute,
+            assertEqual: assertEqual,
+            assertCollectionEqual: assertCollectionEqual,
+        });
+        finish();
     });
-    finish();
 };

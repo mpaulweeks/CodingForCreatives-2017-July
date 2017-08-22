@@ -4,6 +4,4 @@ function filterComments(comments){
   return comments;
 }
 
-function main(){
-  window.Comments.FilterAndDisplay('prompt', 'comments', filterComments);
-}
+window.Comments.FilterAndDisplay('prompt', 'comments', filterComments);
