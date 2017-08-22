@@ -12,6 +12,10 @@
 }
 
 .working {
+  background-color: yellow;
+}
+
+.error {
   background-color: fuchsia;
 }
 

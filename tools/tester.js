@@ -1,7 +1,8 @@
 CFC = window;
-CFC.Tester = function (assertions){
+CFC.Tester = function (assertionsCallback){
 
-    let failures = 0;
+    var failures = 0;
+    var errorOccurred = false;
     function start(){
         document.body.innerHTML = `
           <div id="title">encountered an error, check console</div>
@@ -13,7 +14,10 @@ CFC.Tester = function (assertions){
     function finish(){
         const title = document.getElementById('title');
         document.body.classList.remove('working');
-        if(failures == 0){
+        if (errorOccurred) {
+            title.innerHTML = "ERROR";
+            title.classList.add('error');
+        } else if (failures == 0){
             title.innerHTML = "ALL TESTS PASS";
             title.classList.add('success');
         } else {
@@ -21,14 +25,14 @@ CFC.Tester = function (assertions){
             title.classList.add('failure');
         }
     }
-    function assert(message, value, data){
-        const passed = Boolean(value);
+    function printResult(passed, message, data){
         const prettyPassed = passed ? "PASSED" : "FAILED";
-        let debug = "";
+        var debug = "";
         if (!passed){
             failures += 1;
             if (data){
-                console.log(message, data);
+                console.log(message);
+                console.log(data);
                 debug = `<pre class="debug">${data}</pre>`;
             }
         }
@@ -38,6 +42,10 @@ CFC.Tester = function (assertions){
                 ${debug}
             </div>
         `;
+    }
+    function assert(message, value, data){
+        const passed = Boolean(value);
+        printResult(passed, message, data);
         return value;
     }
     function refute(message, value, data){
@@ -63,13 +71,21 @@ CFC.Tester = function (assertions){
     CFC.IsTest = true;
     document.addEventListener("DOMContentLoaded", function() {
         start();
-        assertions({
-            assert: assert,
-            refute: refute,
-            assertEqual: assertEqual,
-            assertCollectionEqual: assertCollectionEqual,
-        });
-        finish();
-        CFC.IsTest = false;
+        try {
+            assertionsCallback({
+                assert: assert,
+                refute: refute,
+                assertEqual: assertEqual,
+                assertCollectionEqual: assertCollectionEqual,
+            });
+        }
+        catch (e) {
+            printResult(false, 'There was an error. See console for more details.', e);
+            errorOccurred = true;
+        }
+        finally {
+            finish();
+            CFC.IsTest = false;
+        }
     });
 };
