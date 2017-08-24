@@ -4,7 +4,7 @@
       <div class="week">
         <div class="week-title">WEEK ${weekNum}</div>
         <div class="contents">
-          <a href="https://github.com/mpaulweeks/cfc2017/tree/master/prompt/week${weekNum}">Assignment</a>
+          <a href="https://github.com/mpaulweeks/cfc2017/tree/master/lectures/week${weekNum}">Lecture</a>
         </div>
       </div>`;
   }
