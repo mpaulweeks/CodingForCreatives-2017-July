@@ -1,6 +1,6 @@
 # Week 1
 
-[View example page](https://mpaulweeks.github.io/cfc2017/prompt/week1)
+[View example](https://mpaulweeks.github.io/cfc2017/prompt/week1)
 
 Read the `index.html` for examples of HTML tags.
 
