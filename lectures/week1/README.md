@@ -3,11 +3,15 @@
 ## Discussion
 
 - How the internet works
-- Frontend vs Backend, "static files"
-- Setting up github accounts and folders
-- Installing a text editor
-- Overview of HTML, demo creation in class
-- Upload name/index.html
+  - Servers and IP
+  - DNS
+  - Routers
+  - Frontend vs Backend, "static files"
+- Setup
+  - Github accounts and folders
+  - Installing a text editor
+- HTML
+  - demo creation in class, everyone uploads cfc2017/<name>/index.html
 - Chrome dev tools
 - Intro to CSS
 

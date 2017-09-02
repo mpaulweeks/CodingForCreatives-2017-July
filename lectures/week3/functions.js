@@ -13,7 +13,7 @@ function fire(message){
 }
 
 // while loop
-function promptLoop(){
+function promptForever(){
   var result = "";
   while (result != "hunter2"){
     result = window.prompt("Please type in hunter2", "");
