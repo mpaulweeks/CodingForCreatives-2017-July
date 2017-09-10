@@ -1,6 +1,6 @@
 # Coding For Creatives 2017 October
 
-[](https://github.com/mpaulweeks/cfc2017)
+![](welcome/cat.gif)
 
 ## Goals
 
@@ -17,3 +17,6 @@
   - Security and cryptography
   - Artifical intelligence and machine learning
   - Hacking, ransomware, and botnets
+
+## Tools
+- [Atom](https://atom.io/) (text editor)
