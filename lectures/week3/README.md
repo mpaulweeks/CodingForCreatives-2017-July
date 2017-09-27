@@ -10,4 +10,7 @@
 
 ## Workshop
 
-- Introduction to JS with number and string operations
+- Introduction to JS
+  - Number operations
+  - String operations
+  - Conditionals (`if`/`else`)
