@@ -9,6 +9,9 @@
   - DNS
   - Routers
   - Frontend vs Backend, "static files"
+  
+## Workshop
+
 - Working with GitHub
   - Setting up accounts and folders
   - Uploading a file
