@@ -19,4 +19,6 @@
   - Hacking, ransomware, and botnets
 
 ## Tools
+- [GitHub](https://github.com/join) (for sharing and rendering files)
+- [Chrome](https://www.google.com/chrome/browser/desktop/index.html) (web browser with good inspect tools)
 - [Atom](https://atom.io/) (text editor)
