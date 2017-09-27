@@ -44,16 +44,19 @@ a {
   font-weight: bold;
 }
 
+.week-row {
+  display: flex;
+  max-width: 1000px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
 .week {
   border: 2px solid white;
   padding-top: 8px;
   padding-bottom: 8px;
-  margin-top: 16px;
   width: 300px;
   border-radius: 16px;
-}
-.week:first-child {
-  margin-top: inherit;
 }
 .week-title {
   font-size: 24px;

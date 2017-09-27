@@ -8,11 +8,15 @@
         </div>
       </div>`;
   }
-  var weekData = '';
-  for (var i = 1; i <= 3; i++){
-    weekData += getWeek(i);
+  var perRow = 3;
+  for (var x = 0; x < perRow; x++){
+    var weekData = '';
+    for (var i = 1; i <= perRow; i++){
+      weekData += getWeek(i + perRow*x);
+    }
+    weekData = `<div class="week-row">${weekData}</div>`;
+    document.getElementById('week-data').innerHTML += weekData;
   }
-  document.getElementById('week-data').innerHTML = weekData;
 
   var heros = ['kermit', 'cat'];
   var randomHero = heros[Math.floor(Math.random() * heros.length)];
