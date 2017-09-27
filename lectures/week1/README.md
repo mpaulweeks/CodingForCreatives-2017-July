@@ -1,19 +1,23 @@
 # Week 1
 
-## Discussion
+## Lecture
 
+- Explain class structure, goals, grading
+- Ice breakers
 - How the internet works
   - Servers and IP
   - DNS
   - Routers
   - Frontend vs Backend, "static files"
-- Setup
-  - Github accounts and folders
-  - Installing a text editor
-- HTML
-  - demo creation in class, everyone uploads cfc2017/<name>/index.html
-- Chrome dev tools
-- Intro to CSS
+- Working with GitHub
+  - Setting up accounts and folders
+  - Uploading a file
+  - Modifying a file, git history
+- Introduction to HTML
+  - demo creation in class, everyone uploads cfc2017/<name>/week1/index.html
+- Introduction to CSS
+  - demo classes, font size, colors
+- Demo Chrome dev tools
 
 ## Homework
 
