@@ -2,6 +2,7 @@ CFC = window;
 CFC.Comments = {};
 
 CFC.Comments.Get = function (key, callback){
+  // todo rewrite with fetch
   // https://webdesign.tutsplus.com/tutorials/an-example-of-ajax-with-vanilla-javascript--cms-25763
   var request = new XMLHttpRequest();
   request.onreadystatechange = function (){
