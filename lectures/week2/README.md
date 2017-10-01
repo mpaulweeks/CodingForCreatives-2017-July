@@ -14,5 +14,6 @@
 
 - Continue HTML / CSS
   - tag vs class vs id
-- HTML form
+- Multiple pages
+- HTML form, importing JS
   - with http://postboard.mpaulweeks.com

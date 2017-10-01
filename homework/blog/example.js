@@ -1,0 +1,2 @@
+
+CFC.Comments.SetupComments("example");

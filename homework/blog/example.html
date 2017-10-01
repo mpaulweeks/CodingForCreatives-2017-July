@@ -1,0 +1,25 @@
+<head>
+  <title>Comments Example</title>
+  <link rel="stylesheet" type="text/css" href="http://static.mpaulweeks.com/cfc2017/comments.css" />
+</head>
+<body>
+  <form id="comments-form" action="http://postboard.mpaulweeks.com/comments">
+    <input type="hidden" name="key" value="example" />
+    <label>
+      name
+    </label>
+    <input name="name" value="Some Guy" />
+    <label>
+      text
+    </label>
+    <input name="text" value="Hello, I'm a human!" />
+    <button type="submit">
+      Comment
+    </button>
+  </form>
+
+  <div id="comments-view"></div>
+  <!-- <script src="http://static.mpaulweeks.com/cfc2017/comments.js"></script> -->
+  <script src="../../static/comments.js"></script>
+  <script src="example.js"></script>
+</body>

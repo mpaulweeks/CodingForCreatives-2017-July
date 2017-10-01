@@ -1,10 +1,10 @@
-# Week 1
+# Biography
 
-[View example](https://mpaulweeks.github.io/cfc2017/prompt/week1)
+[View example](https://mpaulweeks.github.io/cfc2017/homework/biography/example.html)
 
-Read the `index.html` for examples of HTML tags.
+Read the `example.html` for examples of HTML tags.
 
-Read `style.css` for examples of CSS styling.
+Read `example.css` for examples of CSS styling.
 
 ## Assignment
 

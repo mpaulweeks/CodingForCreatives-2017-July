@@ -4,7 +4,7 @@ CFC.Comments = {};
 CFC.Comments.Get = function (key, callback){
   // todo rewrite with fetch
   // https://webdesign.tutsplus.com/tutorials/an-example-of-ajax-with-vanilla-javascript--cms-25763
-  var request = new XMLHttpRequest();
+  const request = new XMLHttpRequest();
   request.onreadystatechange = function (){
     if(request.readyState === 4) {
       if(request.status === 200) {
@@ -36,15 +36,41 @@ CFC.Comments.GenerateHtml = function (comments){
 }
 
 CFC.Comments.GetAndDisplay = function (key){
-  CFC.Comments.FilterAndDisplay(key, "comments", function (comments){
+  CFC.Comments.FilterAndDisplay(key, "comments-view", function (comments){
     return comments;
   });
 }
 
 CFC.Comments.FilterAndDisplay = function (key, selectorId, filterFunc){
   CFC.Comments.Get(key, function (comments){
-    var filtered = filterFunc(comments);
-    var commentHtml = CFC.Comments.GenerateHtml(filtered)
+    const filtered = filterFunc(comments);
+    const commentHtml = CFC.Comments.GenerateHtml(filtered)
     document.getElementById(selectorId).innerHTML = commentHtml;
   });
+}
+
+CFC.Comments.SetupComments = function (key){
+  const onSuccess = function(){
+    CFC.Comments.GetAndDisplay(key);
+  };
+  const onSubmit = function(event){
+    event.preventDefault();
+    const formData = new FormData(document.getElementById('comments-form'));
+    const postData = {
+      "key": key,
+      "no_redirect": true,
+    };
+    for (var entry of formData.entries()){
+      postData[entry[0]] = entry[1];
+    }
+    const request = new Request("http://postboard.mpaulweeks.com/comments", {
+      method: 'POST',
+      body: Object.keys(postData).map(k => `${encodeURIComponent(k)}=${encodeURIComponent(postData[k])}`).join('&'),
+    });
+    console.log(request);
+    CFC.req = request;
+    fetch(request).then(onSuccess);
+  }
+  document.getElementById('comments-form').addEventListener("submit", onSubmit, false);
+  onSuccess();
 }
