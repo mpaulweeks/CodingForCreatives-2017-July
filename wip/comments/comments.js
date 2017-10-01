@@ -11,4 +11,4 @@ function filterDuplicateComments(comments){
   return comments;
 }
 
-CFC.Comments.FilterAndDisplay('prompt', 'comments', filterAdminComments);
+CFC.Comments.FilterAndDisplay('prompt', 'comments-view', filterAdminComments);
