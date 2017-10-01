@@ -48,29 +48,3 @@ CFC.Comments.FilterAndDisplay = function (key, selectorId, filterFunc){
     document.getElementById(selectorId).innerHTML = commentHtml;
   });
 }
-
-CFC.Comments.SetupComments = function (key){
-  const onSuccess = function(){
-    CFC.Comments.GetAndDisplay(key);
-  };
-  const onSubmit = function(event){
-    event.preventDefault();
-    const formData = new FormData(document.getElementById('comments-form'));
-    const postData = {
-      "key": key,
-      "no_redirect": true,
-    };
-    for (var entry of formData.entries()){
-      postData[entry[0]] = entry[1];
-    }
-    const request = new Request("http://postboard.mpaulweeks.com/comments", {
-      method: 'POST',
-      body: Object.keys(postData).map(k => `${encodeURIComponent(k)}=${encodeURIComponent(postData[k])}`).join('&'),
-    });
-    console.log(request);
-    CFC.req = request;
-    fetch(request).then(onSuccess);
-  }
-  document.getElementById('comments-form').addEventListener("submit", onSubmit, false);
-  onSuccess();
-}
