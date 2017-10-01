@@ -15,6 +15,6 @@ Create a personal info webpage, with at least the following:
 
 You are free to model it after yourself, a celebrity, or an entirely fictional person. Please no doxing.
 
-Upload the following:
+Upload the following to `students/<yourname>/biography/`
 - `index.html`
 - a `css` file

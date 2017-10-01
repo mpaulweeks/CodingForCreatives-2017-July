@@ -35,8 +35,8 @@ CFC.Comments.GenerateHtml = function (comments){
   `;
 }
 
-CFC.Comments.GetAndDisplay = function (key, selectorId){
-  CFC.Comments.FilterAndDisplay(key, selectorId, function (comments){
+CFC.Comments.GetAndDisplay = function (key){
+  CFC.Comments.FilterAndDisplay(key, "comments", function (comments){
     return comments;
   });
 }
