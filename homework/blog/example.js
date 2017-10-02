@@ -1,3 +1,1 @@
-
-// CFC.Comments.SetupComments("example");
-CFC.Comments.GetAndDisplay("example");
+CFC.Comments.Setup("example");

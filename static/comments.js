@@ -48,3 +48,12 @@ CFC.Comments.FilterAndDisplay = function (key, selectorId, filterFunc){
     document.getElementById(selectorId).innerHTML = commentHtml;
   });
 }
+
+CFC.Comments.Setup = function (key){
+  if(!!window.performance && window.performance.navigation.type === 2)
+  {
+    // got here via back button, force reload
+    window.location.reload();
+  }
+  CFC.Comments.GetAndDisplay(key);
+}
