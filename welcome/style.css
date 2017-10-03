@@ -13,20 +13,6 @@ a {
 }
 .container {
   text-align: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
-.pink {
-  background-color: #ec008c;
-  color: white;
-}
-
-#hero {
-  background-color: black;
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  height: 480px;
 
   /*https://css-tricks.com/centering-css-complete-guide/#vertical-inline-multiple*/
   display: flex;
@@ -34,6 +20,16 @@ a {
   justify-content: center;
   resize: vertical;
   overflow: auto;
+}
+
+#hero {
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 80%;
+  background-color: #ec008c;
+  color: white;
 }
 .title {
   font-size: 48px;
@@ -44,25 +40,10 @@ a {
   font-weight: bold;
 }
 
-.week-row {
-  display: flex;
-  max-width: 1000px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+#github-container {
+  height: 20%;
+  background-color: #ec008c;
 }
-
-.week {
-  border: 2px solid white;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  width: 300px;
-  border-radius: 16px;
-}
-.week-title {
-  font-size: 24px;
-  font-weight: bold;
-}
-
 .github {
   width: 100px;
 }
