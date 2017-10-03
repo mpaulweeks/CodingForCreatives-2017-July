@@ -1,0 +1,17 @@
+body {   background-color: black;
+      color: powderblue;
+        font-family: arial;
+  }
+  a {color: powderblue;
+  }
+  a:hover {color: purple;
+  }
+h1 {
+    color: red;
+    text-align: center;
+}
+P { text-align: center }
+img {
+    display: block;
+    margin: auto;
+  }
