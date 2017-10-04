@@ -27,6 +27,7 @@ img {
     height: 190px;
     position: absolute;
     clip: inherit;
+    object-fit: cover;
   }
 
 .flex {
@@ -47,6 +48,5 @@ img {
 .flex-img {
   padding: 5px;
   width: 350px;
-  height: 100%;
   text-align: center;
 }
