@@ -1,13 +1,13 @@
-body {   background-color: black;
-      color: powderblue;
-        font-family: arial;
+body {   background-color: powderblue;
+      color: darkgray;
+        font-family: helvetica;
   }
-  a {color: powderblue;
+  a {color: darkgray;
   }
-  a:hover {color: purple;
+  a:hover {color: black;
   }
 h1 {
-    color: red;
+    color: black;
     text-align: center;
 }
 P { text-align: center }
