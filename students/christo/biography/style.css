@@ -26,7 +26,7 @@ img {
   }
 
 .flex {
-  padding: 0;
+  padding: 10px;
   margin: 0;
   list-style: none;
   
@@ -44,6 +44,5 @@ img {
   padding: 5px;
   width: 350px;
   height: 150px;
-  margin-top: 10px;
   text-align: center;
 }
