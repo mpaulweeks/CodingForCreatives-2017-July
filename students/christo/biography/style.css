@@ -1,7 +1,7 @@
 body {   background-color: E2F1F2;
       color: #566573;
         font-family: helvetica;
-      background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.0),rgba(0,0,0,0.56))
+      background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.0),rgba (26,82,118,,0.56))
   }
   a {color: #566573;
   }
