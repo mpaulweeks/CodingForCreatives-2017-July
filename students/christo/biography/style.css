@@ -25,6 +25,8 @@ img {
     margin: auto;
     width: 350px;
     height: auto;
+    position: absolute;
+    clip: inherit;
   }
 
 .flex {
