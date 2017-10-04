@@ -25,4 +25,5 @@
 ## Homework
 
 - [Biography](/homework/biography)
-- Use the Chrome dev tool to inspect websites you use. Feel free to experiment with different tags.
+- Use the Chrome dev tool to inspect websites you use. Try editing the content!
+  - [Instructions on how to access dev tools](https://developer.chrome.com/devtools)
