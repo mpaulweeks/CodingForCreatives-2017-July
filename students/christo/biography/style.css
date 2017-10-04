@@ -24,6 +24,7 @@ img {
     display: block;
     margin: auto;
     width: 350px;
+    width: 190px;
     height: auto;
     position: absolute;
     clip: inherit;
@@ -47,6 +48,6 @@ img {
 .flex-img {
   padding: 5px;
   width: 350px;
-  height: 190px;
+  height: 100%;
   text-align: center;
 }
