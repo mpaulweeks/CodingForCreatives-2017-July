@@ -22,6 +22,7 @@ CFC.Comments.GenerateHtml = function (comments){
   comments.forEach(function (c){
     commentHtml += `
       <div class="comment-container">
+        <a class="comment-delete" href="http://postboard.mpaulweeks.com/delete/comment/${c.key}/${c.id}"></a>
         <div class="comment-name">${c.name}</div>
         <div class="comment-text">${c.text}</div>
       </div>
