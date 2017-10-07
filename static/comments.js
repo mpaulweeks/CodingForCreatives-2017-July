@@ -54,12 +54,15 @@ CFC.Comments.Setup = function (key){
   {
     // got here via back button, force reload
     window.location.reload();
+  } else {
+    document.addEventListener("DOMContentLoaded", function() {
+      var formElm = document.getElementById("comments-form");
+      formElm.setAttribute("method", "post");
+      formElm.setAttribute("action", "http://postboard.mpaulweeks.com/comments");
+      formElm.innerHTML += `
+       <input type="hidden" name="key" value="${key}" />
+      `;
+      CFC.Comments.GetAndDisplay(key);
+    });
   }
-  var formElm = document.getElementById("comments-form");
-  formElm.setAttribute("method", "post");
-  formElm.setAttribute("action", "http://postboard.mpaulweeks.com/comments");
-  formElm.innerHTML += `
-   <input type="hidden" name="key" value="${key}" />
-  `;
-  CFC.Comments.GetAndDisplay(key);
 }
