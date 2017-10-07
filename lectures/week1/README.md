@@ -5,9 +5,9 @@
 - Explain class structure, goals, grading
 - Ice breakers
 - How the internet works
-  - Servers and IP
   - DNS
-  - Routers
+  - Servers and IP
+  - Routers and Local IP
   - Frontend vs Backend, "static files"
 
 ## Workshop
