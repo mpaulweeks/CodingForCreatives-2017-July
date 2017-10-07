@@ -1,13 +1,16 @@
 
 .comments-top-container {
   border: 2px solid #f2eec1;
-  width: 400px;
+  width: 600px;
   padding: 10px;
 }
-
 .comments-top-header {
   font-size: 20px;
   padding: 10px;
+}
+.comments-empty {
+  font-size: 16px;
+  color: #888888;
 }
 
 .comment-container {
@@ -26,13 +29,11 @@
   font-size: 16px;
   font-weight: bold;
 }
-
 .comment-text {
   background-color: #f7f5e1;
   padding: 5px;
   font-size: 16px;
 }
-
 .comment-delete {
   position: absolute;
   text-decoration: none;

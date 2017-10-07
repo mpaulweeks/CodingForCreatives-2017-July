@@ -27,7 +27,14 @@ CFC.Comments.GenerateHtml = function (comments){
         <div class="comment-text">${c.text}</div>
       </div>
     `;
-  })
+  });
+  if (commentHtml.length === 0){
+    commentHtml = `
+      <div class="comments-empty">
+        Nobody has left a comment yet.
+      </div>
+    `;
+  }
   return `
     <div class="comments-top-container">
       <div class="comments-top-header">Comments</div>
@@ -56,14 +63,12 @@ CFC.Comments.Setup = function (key){
     // got here via back button, force reload
     window.location.reload();
   } else {
-    document.addEventListener("DOMContentLoaded", function() {
-      var formElm = document.getElementById("comments-form");
-      formElm.setAttribute("method", "post");
-      formElm.setAttribute("action", "http://postboard.mpaulweeks.com/comments");
-      formElm.innerHTML += `
-       <input type="hidden" name="key" value="${key}" />
-      `;
-      CFC.Comments.GetAndDisplay(key);
-    });
+    var formElm = document.getElementById("comments-form");
+    formElm.setAttribute("method", "post");
+    formElm.setAttribute("action", "http://postboard.mpaulweeks.com/comments");
+    formElm.innerHTML += `
+     <input type="hidden" name="key" value="${key}" />
+    `;
+    CFC.Comments.GetAndDisplay(key);
   }
 }
