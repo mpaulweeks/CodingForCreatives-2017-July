@@ -13,7 +13,7 @@ CFC.Comments.Get = function (key, callback){
       }
     }
   };
-  request.open('Get', `http://postboard.mpaulweeks.com/comments/${key}`);
+  request.open('Get', `http://postboard.mpaulweeks.com/comments/cfc/${key}`);
   request.send();
 }
 
@@ -22,7 +22,7 @@ CFC.Comments.GenerateHtml = function (comments){
   comments.forEach(function (c){
     commentHtml += `
       <div class="comment-container">
-        <a class="comment-delete" href="http://postboard.mpaulweeks.com/delete/comment/${c.key}/${c.id}"></a>
+        <a class="comment-delete" href="http://postboard.mpaulweeks.com/delete/comment/cfc/${c.key}/${c.id}"></a>
         <div class="comment-name">${c.name}</div>
         <div class="comment-text">${c.text}</div>
       </div>
@@ -65,7 +65,7 @@ CFC.Comments.Setup = function (key){
   } else {
     var formElm = document.getElementById("comments-form");
     formElm.setAttribute("method", "post");
-    formElm.setAttribute("action", "http://postboard.mpaulweeks.com/comments");
+    formElm.setAttribute("action", "http://postboard.mpaulweeks.com/comments/cfc");
     formElm.innerHTML += `
      <input type="hidden" name="key" value="${key}" />
     `;

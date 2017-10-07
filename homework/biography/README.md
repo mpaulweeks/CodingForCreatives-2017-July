@@ -1,8 +1,8 @@
 # Biography
 
-[View example](https://mpaulweeks.github.io/cfc2017/homework/biography/example.html)
+[View tags_example.html as a web page](https://mpaulweeks.github.io/cfc2017/homework/biography/tags_example.html)
 
-Read the `example.html` for examples of HTML tags.
+Read `tags_example.html` for examples of HTML tags.
 
 Read `example.css` for examples of CSS styling.
 

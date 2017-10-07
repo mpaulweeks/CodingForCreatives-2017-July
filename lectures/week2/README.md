@@ -29,3 +29,8 @@
     - Demo multiple pages
   - Forms
     - Explain it requires backend, set them up with `comments.js`
+
+## Homework
+
+- Read the first five chapters of [Don't Make Me Think](http://static.mpaulweeks.com/files/think.pdf)
+- Upload a [Blog] page(/homework/blog)
