@@ -1,19 +1,31 @@
 # Week 2
 
+## Review
+
+- Explain source control
+- Review last week's homework
+  - Incorrect syntax
+  - Whitespace
+  - Unused elements
+  - Importing
+
 ## Lecture
 
-- Source control
 - Browser cache and cache busting
 - Cookies
+  - Can't track login by IP due to local routers, moving laptop
 - Deeper dive on internet explanation from last week
-  - Router vs local IP
   - TCP vs UDP
-  - HTTP vs HTTPS (high level, crytography will be explained in a later class)
+  - HTTP vs HTTPS (save cryptography for later lesson)
 
 ## Workshop
 
-- Continue HTML / CSS
+- Continue CSS
   - tag vs class vs id
-- Multiple pages
-- HTML form, importing JS
-  - with http://postboard.mpaulweeks.com
+  - why `<span>` is useful
+- Continue HTML
+  - Why `index.html`?
+  - Linking to local resources
+    - Demo multiple pages
+  - Forms
+    - Explain it requires backend, set them up with `comments.js`
