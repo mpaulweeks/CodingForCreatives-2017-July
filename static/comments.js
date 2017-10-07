@@ -65,10 +65,7 @@ CFC.Comments.Setup = function (key){
   } else {
     var formElm = document.getElementById("comments-form");
     formElm.setAttribute("method", "post");
-    formElm.setAttribute("action", "http://postboard.mpaulweeks.com/comments/cfc");
-    formElm.innerHTML += `
-     <input type="hidden" name="key" value="${key}" />
-    `;
+    formElm.setAttribute("action", `http://postboard.mpaulweeks.com/comments/cfc/${key}`);
     CFC.Comments.GetAndDisplay(key);
   }
 }
