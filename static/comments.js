@@ -2,19 +2,14 @@ CFC = window;
 CFC.Comments = {};
 
 CFC.Comments.Get = function (key, callback){
-  // todo rewrite with fetch
-  // https://webdesign.tutsplus.com/tutorials/an-example-of-ajax-with-vanilla-javascript--cms-25763
-  const request = new XMLHttpRequest();
-  request.onreadystatechange = function (){
-    if(request.readyState === 4) {
-      if(request.status === 200) {
-        const comments = JSON.parse(request.responseText);
-        callback(comments);
-      }
-    }
-  };
-  request.open('Get', `http://postboard.mpaulweeks.com/comments/cfc/${key}`);
-  request.send();
+  const url = `http://postboard.mpaulweeks.com/comments/cfc/${key}`;
+  fetch(url)
+    .then(response => {
+      return response.json();
+    })
+    .then(json => {
+      callback(json);
+    });
 }
 
 CFC.Comments.GenerateHtml = function (comments){
