@@ -17,6 +17,7 @@
 - Deeper dive on internet explanation from last week
   - TCP vs UDP
   - HTTP vs HTTPS (save cryptography for later lesson)
+    - Why I changed the URL
 
 ## Workshop
 
