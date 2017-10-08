@@ -47,3 +47,25 @@ a {
 .github {
   width: 100px;
 }
+
+.projects-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ec008c;
+  border-top: 2px solid white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.projects-container table {
+  font-size: 24px;
+  color: white;
+}
+.projects-container td {
+  padding-left: 10px;
+}
+.projects-name {
+  text-align: right;
+}
+.projects-cell {
+  text-align: center;
+}
