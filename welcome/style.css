@@ -59,7 +59,15 @@ a {
 .projects-container table {
   font-size: 24px;
   color: white;
+  border-spacing: 0px;
 }
+.projects-container a {
+  text-decoration: none;
+}
+.projects-container a:hover {
+  text-decoration: underline;
+}
+.projects-container th,
 .projects-container td {
   padding-left: 10px;
 }
@@ -68,4 +76,7 @@ a {
 }
 .projects-cell {
   text-align: center;
+}
+.projects-container tbody tr:hover {
+  background-color: #89216f;
 }
