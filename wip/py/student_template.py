@@ -1,17 +1,20 @@
 import os
 from shutil import copyfile
 
+ROOT = '/Users/mpaulweeks/git/mpaulweeks/cfc2017/'
+PATH_STUDENTS = ROOT + 'students'
+PATH_TEMPLATE = ROOT + 'wip/templates'
+BASE_URL = 'http://cfc2017.mpaulweeks.com'
+
 def copy_file(template_path, student_name, student_path):
     with open(template_path, 'r') as f:
         content = f.read()
     content = content.replace('<student_name>', student_name)
+    content = content.replace('<base_url>', BASE_URL)
     with open(student_path, "w") as f:
         f.write(content)
 
 def run():
-    ROOT = '/Users/mpaulweeks/git/mpaulweeks/cfc2017/'
-    PATH_STUDENTS = ROOT + 'students'
-    PATH_TEMPLATE = ROOT + 'wip/templates'
 
     students = []
     for f in os.listdir(PATH_STUDENTS):

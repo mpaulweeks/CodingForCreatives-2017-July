@@ -1,6 +1,6 @@
 # Blog
 
-[View comments_example.html as a web page](https://mpaulweeks.github.io/cfc2017/homework/blog/comments_example.html)
+[View comments_example.html as a web page](http://cfc2017.mpaulweeks.com/homework/blog/comments_example.html)
 
 Read `comments_example.html` for an example of how to create a form and import the comments CSS and JS.
 

@@ -2,4 +2,4 @@
 
 [Assignment details](/homework/blog)
 
-[View your uploaded website](https://mpaulweeks.github.io/cfc2017/students/sofia/blog/)
+[View your uploaded website](http://cfc2017.mpaulweeks.com/students/sofia/blog/)

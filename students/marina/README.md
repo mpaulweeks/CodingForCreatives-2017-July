@@ -1,3 +1,3 @@
 # marina/
 
-[View your web page](https://mpaulweeks.github.io/cfc2017/students/marina/)
+[View your web page](http://cfc2017.mpaulweeks.com/students/marina/)

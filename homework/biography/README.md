@@ -1,6 +1,6 @@
 # Biography
 
-[View tags_example.html as a web page](https://mpaulweeks.github.io/cfc2017/homework/biography/tags_example.html)
+[View tags_example.html as a web page](http://cfc2017.mpaulweeks.com/homework/biography/tags_example.html)
 
 Read `tags_example.html` for examples of HTML tags.
 

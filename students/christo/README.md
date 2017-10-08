@@ -1,3 +1,3 @@
 # christo/
 
-[View your web page](https://mpaulweeks.github.io/cfc2017/students/christo/)
+[View your web page](http://cfc2017.mpaulweeks.com/students/christo/)

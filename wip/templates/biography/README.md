@@ -2,4 +2,4 @@
 
 [Assignment details](/homework/biography)
 
-[View your uploaded website](https://mpaulweeks.github.io/cfc2017/students/<student_name>/biography/)
+[View your uploaded website](<base_url>/students/<student_name>/biography/)
