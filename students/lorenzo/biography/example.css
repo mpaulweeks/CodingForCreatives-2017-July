@@ -1,0 +1,28 @@
+h1 {
+    color: lightblue;
+    text-align: center;
+}
+h2 {
+    color: lightblue;
+    text-align: center;
+}
+h4 {
+    color: lightblue;
+    text-align: center;
+}
+h3 {
+    color: lightblue;
+    text-align: center;
+}
+p {
+    color: darkgrey;
+    text-align: center;
+}
+ul {
+    color: lightblue;
+    text-align: center;
+}
+img {
+    display: block;
+    margin: auto;
+}
