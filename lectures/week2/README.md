@@ -4,32 +4,25 @@
 
 - Explain source control
 - Review last week's homework
-  - Incorrect syntax
-  - Whitespace
-  - Unused elements
-  - Importing
+  - Christo, Kevin, Sofia, Tish
 
 ## Lecture
 
 - Browser cache and cache busting
+- CDNs
 - Cookies
-  - Can't track login by IP due to local routers, moving laptop
-- Deeper dive on internet explanation from last week
-  - TCP vs UDP
-  - HTTP vs HTTPS (save cryptography for later lesson)
-    - Why I changed the URL
+- TCP vs UDP (and torrenting)
 
 ## Workshop
 
 - Continue CSS
-  - tag vs class vs id
+  - tag vs class
   - why `<span>` is useful
-- Continue HTML
+- Continue HTML discussion
   - Why `index.html`?
-  - Linking to local resources
-    - Demo multiple pages
+  - Linking to local resources vs hot-linking
   - Forms
-    - Explain it requires backend, set them up with `comments.js`
+- Linking a JS file
 
 ## Homework
 
