@@ -1,0 +1,29 @@
+body {
+    background-color: f0f0f0;
+    text-align: center;
+    font-size: 80%;
+}
+h1 {
+  color: a0a0a0;
+  font-family: Phosphate;
+  font-kerning: 80%;
+}
+h2 {
+  color: e0aac8;
+  font-family: Quicksand;
+}
+h3 {
+  color: e0aac8;
+  font-family: Quicksand;
+  font-size: 150%;
+}
+h4 {
+  color: e0aac8;
+  font-family: Quicksand;
+  font-size: 145%;
+}
+h5 {
+  color: e0aac8;
+  font-family: Quicksand;
+  font-size: 145%;
+}
