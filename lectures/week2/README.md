@@ -20,7 +20,7 @@
   - why `<span>` is useful
 - Continue HTML discussion
   - Why `index.html`?
-  - Linking to local resources vs hot-linking
+  - Linking to local resources vs [hotlinking](https://en.wikipedia.org/wiki/Inline_linking)
   - Forms
 - Linking a JS file
 
