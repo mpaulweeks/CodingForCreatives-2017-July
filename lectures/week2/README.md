@@ -34,4 +34,4 @@
 ## Homework
 
 - Read the first five chapters of [Don't Make Me Think](http://static.mpaulweeks.com/files/think.pdf)
-- Upload a [Blog] page(/homework/blog)
+- Upload a [Blog](/homework/blog) page
