@@ -40,7 +40,7 @@
       </div>
     `;
   }
-  fetch("http://static.mpaulweeks.com/cfc2017/roster.json")
+  fetch("http://static.mpaulweeks.com/cfc2017/roster.json?v=" + (new Date()).toISOString())
     .then(response => {
       return response.json();
     })

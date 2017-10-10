@@ -1,6 +1,11 @@
 CFC = window;
 CFC.Comments = {};
 
+CFC.Comments.Url = function(path){
+  const now = (new Date()).toISOString();
+  return `http://postboard.mpaulweeks.com/${path}?v=${now}`;
+}
+
 CFC.Comments.Get = function (key, callback){
   const url = `http://postboard.mpaulweeks.com/comments/cfc/${key}`;
   fetch(url)
@@ -15,9 +20,10 @@ CFC.Comments.Get = function (key, callback){
 CFC.Comments.GenerateHtml = function (comments){
   let commentHtml = '';
   comments.forEach(function (c){
+    const delUrl = CFC.Comments.Url(`delete/comment/cfc/${c.key}/${c.id}`);
     commentHtml += `
       <div class="comment-container">
-        <a class="comment-delete" href="http://postboard.mpaulweeks.com/delete/comment/cfc/${c.key}/${c.id}"></a>
+        <a class="comment-delete" href="${delUrl}"></a>
         <div class="comment-name">${c.name}</div>
         <div class="comment-text">${c.text}</div>
       </div>
