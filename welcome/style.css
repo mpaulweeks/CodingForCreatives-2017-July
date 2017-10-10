@@ -70,12 +70,9 @@ a {
 .projects-container th,
 .projects-container td {
   padding-left: 10px;
-}
-.projects-name {
-  text-align: right;
-}
-.projects-cell {
+  padding-right: 10px;
   text-align: center;
+  min-width: 100px;
 }
 .projects-container tbody tr:hover {
   background-color: #89216f;
