@@ -2,6 +2,8 @@
 
 ## Review
 
+- Importing multiple CSS files
+
 ## Lecture
 
 - HTTP vs HTTPS (save cryptography for later lesson)
@@ -15,6 +17,7 @@
 
 ## Workshop
 
+- Multiple pages with fixed banner
 - Introduction to JS
   - Number operations
   - String operations
