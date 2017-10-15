@@ -13,13 +13,7 @@
     - Hex and how it relates to CSS
   - CPU vs RAM vs Disk
 - Fixed and Absolute positioning
-- Introduction to JS
 
 ## Workshop
 
 - Multiple pages with fixed banner
-- Introduction to JS
-  - Number operations
-  - String operations
-  - Conditionals (`if`/`else`)
-  - Use keyboard to move div?

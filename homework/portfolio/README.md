@@ -1,16 +1,16 @@
 # Portfolio
 
-[View class notes as a web page](http://cfc2017.mpaulweeks.com/homework/portfolio/index.html)
+[View class notes as a web page](http://cfc2017.mpaulweeks.com/homework/portfolio/)
 
 ## Assignment
 
 Create a series of HTML pages with a shared navigation bar.
 
-The requirements:
+Requirements:
 - At least 3 HTML pages
 - One style sheet, imported by all the HTML pages
 - Each HTML page should have the same HTML block for the navigation bar
-- Some styling changes on smaller screens
+- Some styling changes for smaller screens
 
 Upload the following to `students/<yourname>/portfolio/` by 5pm on Sunday, October 22
 - `index.html`
