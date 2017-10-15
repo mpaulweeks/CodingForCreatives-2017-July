@@ -1,0 +1,24 @@
+body {
+    background-color: eff3b2;
+    text-align: center;
+    font-size: 80%;
+}
+h1 {
+  color: a0a0a0;
+  font-family: Phosphate;
+  text-align: center;
+  font-kerning: 60%%;
+}
+
+h2 {
+    color: a0a0a0;
+    font-family: quicksand;
+    text-align: left;
+    font-kerning: 80%;
+  }
+}
+body {
+  color: a0a0a0;
+  font-family: quicksand;
+  font-kerning: 80%;
+}
