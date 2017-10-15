@@ -1,0 +1,120 @@
+body {
+  background: #f1f1f1;
+  text-align: left;
+  font-family: 'Montserrat-light', sans-serif;
+  font-size: 10pt;
+  padding: 10px;
+}
+
+img {
+  margin-right: 15px;
+}
+
+li::selection {
+  background-color: #fff6bf;
+}
+
+div::selection {
+  background-color: #fff6bf;
+}
+
+h1 {
+    color: #921a1c;
+}
+
+h3 {
+  color: #797979;
+  font-family: 'Montserrat-regular', sans-serif;
+}
+
+a {
+    color: black;
+}
+
+.color {
+  color: #921a1c;
+}
+
+.column {
+    width: 800px;
+}
+
+.share {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: #921a1c;
+}
+
+.bio {
+  font-size: 7pt;
+  color: #921a1c;
+}
+
+.button {
+  background-color: #921a1c;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.comments-top-container {
+  width: 500px;
+}
+
+.comments-top-header {
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 30px;
+
+}
+.comments-empty {
+  font-size: 13px;
+  color: #888888;
+}
+
+.comment-container {
+  position: relative;
+  border: 1px;
+  background-color: #b5b5b5;
+  padding: 2px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.comment-name {
+  background-color: #b5b5b5;
+  color: white;
+  padding: 5px;
+  font-size: 13px;
+  font-family: 'Montserrat', sans-serif;
+}
+.comment-text {
+  background-color: #f1f1f1;
+  padding: 5px;
+  font-size: 13px;
+}
+.comment-delete {
+  position: absolute;
+  text-decoration: none;
+  top: 3px;
+  right: 5px;
+  color: white;
+}
+.comment-delete:hover {
+  cursor: pointer;
+}
+.comment-delete:after {
+  content: "\2717";
+}
+
+.input1 {
+  width: 500px;
+}
+
+.input2 {
+  width: 500px;
+  padding: 0 0 100px 0;
+}
