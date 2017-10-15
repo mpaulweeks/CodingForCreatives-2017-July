@@ -13,3 +13,4 @@
   - String operations
   - Conditionals (`if`/`else`)
   - Use keyboard to move div
+- Canvas
