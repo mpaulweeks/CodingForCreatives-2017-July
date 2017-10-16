@@ -1,10 +1,10 @@
 # Biography
 
-[View tags_example.html as a web page](http://cfc2017.mpaulweeks.com/homework/biography/tags_example.html)
+[View the example web page](http://cfc2017.mpaulweeks.com/homework/biography/example)
 
-Read `tags_example.html` for examples of HTML tags.
+Read `example/index.html` for examples of HTML tags.
 
-Read `example.css` for examples of CSS styling.
+Read `example/example.css` for examples of CSS styling.
 
 ## Assignment
 

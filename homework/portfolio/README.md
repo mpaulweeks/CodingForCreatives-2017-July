@@ -1,6 +1,6 @@
 # Portfolio
 
-[View class notes as a web page](http://cfc2017.mpaulweeks.com/homework/portfolio/)
+[View the example web page](http://cfc2017.mpaulweeks.com/homework/portfolio/example)
 
 ## Assignment
 

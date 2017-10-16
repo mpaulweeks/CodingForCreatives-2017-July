@@ -1,10 +1,10 @@
 # Blog
 
-[View comments_example.html as a web page](http://cfc2017.mpaulweeks.com/homework/blog/comments_example.html)
+[View the example web page](http://cfc2017.mpaulweeks.com/homework/blog/example)
 
-Read `comments_example.html` for an example of how to create a form and import the comments CSS and JS.
+Read `example/index.html` for an example of how to create a form and import the comments CSS and JS.
 
-Read `main.js` for information about setting up your own comment section with JS.
+Read `example/main.js` for information about setting up your own comment section with JS.
 
 ## Assignment
 
