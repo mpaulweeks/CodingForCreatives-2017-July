@@ -1,0 +1,11 @@
+<head>{background-color: :black ; align-items: left}
+
+
+
+
+body {background-color:red ;text-align: left;background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.12),rgba(26,82,118,0.94));}
+p{font-size: 14pt} p{font-family: impact}
+
+.red{
+  color: red;
+}
