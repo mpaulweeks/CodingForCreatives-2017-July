@@ -43,6 +43,13 @@ CFC.NewCanvas = function(){
       ctx.fill();
     }
 
+    var drawLine = function(x1, y1, x2, y2){
+      ctx.beginPath();
+      ctx.moveTo(x1, y1);
+      ctx.lineTo(x2, y2);
+      ctx.stroke();
+    }
+
     var setDrawColor = function(colorStr){
       ctx.strokeStyle = colorStr;
     }
@@ -52,6 +59,7 @@ CFC.NewCanvas = function(){
 
     CFC.Canvas = {
       drawEllipse,
+      drawLine,
       drawRectangle,
       drawTriangle,
       fillEllipse,
