@@ -1,4 +1,6 @@
-# HTML Cheatsheet
+# Cheatsheet
+
+## HTML
 
 Tags
 
@@ -13,3 +15,46 @@ Tags
 Attributes are what go next to tags, within the carrots `<>`
 
 - `<div class="dirtty"> ... </div>` styled the tag according to the CSS class
+
+## CSS
+
+Styling all tags of the same type
+```
+img {
+  width: 500px;
+}
+```
+
+Styling by class
+```
+.medium-sized {
+  width: 500px;
+}
+```
+Some common CSS attributes
+```
+.example {
+  font-size: 20px;
+  font-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+  
+  color: green;
+  background-color: blue;
+  
+  text-align: left;
+  text-align: center;
+  
+  width: 300px;
+  width: 70%;
+  
+  padding: 5px;
+  padding-left: 20px;
+  
+  margin: 5px;
+  margin-left: 20px;
+}
+```
+
+---
+If you have any ideas/requests, please email Paul to update this page.
