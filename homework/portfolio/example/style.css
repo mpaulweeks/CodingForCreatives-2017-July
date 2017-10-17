@@ -42,3 +42,13 @@ img:hover {
 .selected {
   text-decoration: underline;
 }
+
+@media (max-width: 600px){
+  .responsive {
+    background-color: salmon;
+  }
+  .nav-link {
+    display: block;
+    padding-left: 20px;
+  }
+}
