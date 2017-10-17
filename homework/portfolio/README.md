@@ -12,6 +12,8 @@ Requirements:
 - Each HTML page should have a navigation bar at the top. All pages should be reachable from each other.
 - Styling should change on smaller screens (600px is recommended but feel free to experiment)
   - I will be verifying this by loading the website on a phone. I encourage you to try the same.
+- Delete any unused `CSS`
+  - Most of you are starting with the example CSS file as a base, and that's fine. But once you're finished, try to go back through and delete the styles you aren't using any more. This will demonstrate your understanding of which styles are working where.
 
 Upload the following to `students/<yourname>/portfolio/` by 5pm on Sunday, October 22
 - `index.html`
