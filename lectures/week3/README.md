@@ -7,13 +7,12 @@
 ## Lecture
 
 - HTTP vs HTTPS (save cryptography for later lesson)
+  - Encryption and Decryption
+  - Brief overview of [Man-in-the-Middle attacks](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)
   - Why I changed the URL
-- Basic overview of how computers work
-  - Binary and base-N numbering systems
-    - Hex and how it relates to CSS
-  - CPU vs RAM vs Disk
-- Fixed and Absolute positioning
 
 ## Workshop
 
-- Multiple pages with fixed banner
+- Multiple pages with a shared banner
+- Hover states
+- Responsive CSS
