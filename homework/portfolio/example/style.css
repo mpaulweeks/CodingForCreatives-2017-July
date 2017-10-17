@@ -34,13 +34,11 @@ img:hover {
 .nav-link:hover {
   background-color: blue;
   color: lightgreen;
-  font-size: 100px;
 }
-.nav-link:first-child {
-  font-size: 50px;
+.home {
+  font-size: 40px;
   padding-left: 20px;
 }
 .selected {
-  background-color: white;
-  color: black;
+  text-decoration: underline;
 }
