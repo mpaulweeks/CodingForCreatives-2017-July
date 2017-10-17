@@ -2,6 +2,12 @@ body {
   background: linear-gradient(to bottom, #00ffcc 0%, #ffff66 100%);
   text-align: center;
 }
+.kevin {
+  text-align: center;
+}
+.dirrty {
+  color: red;
+}
 
 .comments-top-container {
   margin: auto;
