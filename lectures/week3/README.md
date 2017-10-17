@@ -16,3 +16,7 @@
 - Multiple pages with a shared banner
 - Hover states
 - Responsive CSS
+
+## Homework
+
+- Upload a [multi-page Portfolio site](/homework/portfolio)
