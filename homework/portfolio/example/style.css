@@ -1,3 +1,46 @@
 body {
-  
+  margin: 0px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.smaller {
+  width: 100%;
+  border-style: inset;
+  border-color: #c8d9f4;
+  border-width: 50px;
+  box-sizing: border-box;
+}
+
+.responsive {
+  width: 100%;
+  padding: 10%;
+  background-color: lightblue;
+  box-sizing: border-box;
+}
+
+.navbar {
+  font-size: 36px;
+  background-color: lightgreen;
+  color: blue;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding-left: 100px;
+}
+.nav-link:hover {
+  background-color: blue;
+  color: lightgreen;
+  font-size: 100px;
+}
+.nav-link:first-child {
+  font-size: 50px;
+  padding-left: 20px;
+}
+.selected {
+  background-color: white;
+  color: black;
 }
