@@ -6,3 +6,5 @@ plans for demo
 - then start with rectangle and line example
 - leave JS on screen, tell them to get started
 - before leaving class, use all functions
+
+- use variable to show offset, to store color

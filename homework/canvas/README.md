@@ -7,6 +7,8 @@
 Use javascript and the canvas to draw a picture.
 
 Requirements:
+- Use all of the shapes (ellipse, rectangle, line, triangle) to draw a picture
+- Use variables to store and re-use your colors
 
 Upload the following to `students/<yourname>/canvas/` by 5pm on Sunday, October 29
 - `index.html`
