@@ -12,23 +12,42 @@ Upload the following to `students/<yourname>/canvas/` by 5pm on Sunday, October 
 - `index.html`
 - a `js` file for drawing the picture
 
-## How to Draw
+## How to use CFC.NewCanvas()
+
+Initialize the canvas, and save it to a variable. Pass it the ID of your canvas element.
 ```
-// this will set the color for all future drawing/filling
-// these start off as "black"
-.setDrawColor(cssColor);
-.setFillColor(cssColor);
+var canvas = CFC.NewCanvas("my-id");
+```
+You will re-use this `canvas` variable to call the other functions.
 
-// with an ellipse, (x,y) marks the center of the circle
-.drawEllipse(x, y, width, height);
-.fillEllipse(x, y, width, height);
+### Setting the Color Palette
 
-// with a rectangle, (x,y) marks the top left corner
-.drawRectangle(x, y, width, height);
-.fillRectangle(x, y, width, height);
+This will set the color for all future drawing/filling. These start off as "black".
+```
+canvas.setDrawColor("cssColor");
+canvas.setFillColor("cssColor");
+```
 
-.drawLine(x1, y1, x2, y2);
+### Drawing Functions
 
-.drawTriangle(x1, y1, x2, y2, x3, y3);
-.fillTriangle(x1, y1, x2, y2, x3, y3);
+Use numbers for the rest of the functions (no quotation marks "").
+
+With an ellipse, (x,y) marks the center of the circle.
+```
+canvas.drawEllipse(x, y, width, height);
+canvas.fillEllipse(x, y, width, height);
+```
+
+With a rectangle, (x,y) marks the top left corner.
+```
+canvas.drawRectangle(x, y, width, height);
+canvas.fillRectangle(x, y, width, height);
+```
+
+These functions take a series of points, described with (x,y).
+```
+canvas.drawLine(x1, y1, x2, y2);
+
+canvas.drawTriangle(x1, y1, x2, y2, x3, y3);
+canvas.fillTriangle(x1, y1, x2, y2, x3, y3);
 ```
