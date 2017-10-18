@@ -1,23 +1,20 @@
 CFC = window;
 CFC.Canvas = {};
 
-CFC.NewCanvas = function(){
-  if (CFC.Canvas.elm === undefined){
+CFC.NewCanvas = function(canvasId){
+  if (CFC.Canvas[canvasId] === undefined){
     document.getElementById("cfc-canvas-warning").remove();
-    document.body.innerHTML += '<canvas id="cfc-canvas">';
-    var canvas = document.getElementById("cfc-canvas");
-    canvas.width = document.body.clientWidth;
-    canvas.height = document.body.clientHeight;
+    var canvas = document.getElementById(canvasId);
     var ctx = canvas.getContext('2d');
 
-    var drawEllipse = function(x, y, radiusX, radiusY){
+    var drawEllipse = function(x, y, width, height){
       ctx.beginPath();
-      ctx.ellipse(x, y, radiusX, radiusY, 0, 0, 2 * Math.PI);
+      ctx.ellipse(x, y, Math.floor(width/2), Math.floor(height/2), 0, 0, 2 * Math.PI);
       ctx.stroke();
     }
-    var fillEllipse = function(x, y, radiusX, radiusY){
+    var fillEllipse = function(x, y, width, height){
       ctx.beginPath();
-      ctx.ellipse(x, y, radiusX, radiusY, 0, 0, 2 * Math.PI);
+      ctx.ellipse(x, y, Math.floor(width/2), Math.floor(height/2), 0, 0, 2 * Math.PI);
       ctx.fill();
     }
 
@@ -57,7 +54,7 @@ CFC.NewCanvas = function(){
       ctx.fillStyle = colorStr;
     }
 
-    CFC.Canvas = {
+    CFC.Canvas[canvasId] = {
       drawEllipse,
       drawLine,
       drawRectangle,
@@ -69,12 +66,12 @@ CFC.NewCanvas = function(){
       setFillColor,
     }
   }
-  return CFC.Canvas;
+  return CFC.Canvas[canvasId];
 }
 
 document.body.innerHTML += `
   <div id="cfc-canvas-warning">
     Initialize your canvas with the following code:
-    <pre>var canvas = CFC.NewCanvas();</pre>
+    <pre>var canvas = CFC.NewCanvas("your canvas id");</pre>
   </div>
 `;
