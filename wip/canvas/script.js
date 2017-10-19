@@ -1,16 +1,13 @@
 
 var canvas = CFC.NewCanvas("cfc-canvas");
 
-canvas.setFillColor("yellow");
-canvas.fillRectangle(50, 50, 400, 600);
+canvas.fillRectangle("yellow", 50, 50, 400, 600);
 
-canvas.setDrawColor("black");
-canvas.drawRectangle(70, 70, 360, 560);
-canvas.drawEllipse(200, 200, 200, 100);
-canvas.drawLine(30, 500, 230, 700);
+var darkOutline = "black";
+canvas.drawRectangle(darkOutline, 70, 70, 360, 560);
+canvas.drawEllipse(darkOutline, 200, 200, 200, 100);
+canvas.drawLine(darkOutline, 30, 500, 230, 700);
 
-canvas.setDrawColor("green");
-canvas.drawEllipse(220, 220, 200, 100);
+canvas.drawEllipse("green", 220, 220, 200, 100);
 
-canvas.setFillColor("blue");
-canvas.fillTriangle(200, 600, 350, 400, 400, 600);
+canvas.fillTriangle("blue", 200, 600, 350, 400, 400, 600);

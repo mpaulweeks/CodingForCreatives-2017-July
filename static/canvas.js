@@ -7,32 +7,38 @@ CFC.NewCanvas = function(canvasId){
     var canvas = document.getElementById(canvasId);
     var ctx = canvas.getContext('2d');
 
-    var drawEllipse = function(x, y, width, height){
+    var drawEllipse = function(colorStr, x, y, width, height){
+      ctx.strokeStyle = colorStr;
       ctx.beginPath();
       ctx.ellipse(x, y, Math.floor(width/2), Math.floor(height/2), 0, 0, 2 * Math.PI);
       ctx.stroke();
     }
-    var fillEllipse = function(x, y, width, height){
+    var fillEllipse = function(colorStr, x, y, width, height){
+      ctx.fillStyle = colorStr;
       ctx.beginPath();
       ctx.ellipse(x, y, Math.floor(width/2), Math.floor(height/2), 0, 0, 2 * Math.PI);
       ctx.fill();
     }
 
-    var drawRectangle = function(x, y, width, height){
+    var drawRectangle = function(colorStr, x, y, width, height){
+      ctx.strokeStyle = colorStr;
       ctx.strokeRect(x, y, width, height);
     }
-    var fillRectangle = function(x, y, width, height){
+    var fillRectangle = function(colorStr, x, y, width, height){
+      ctx.fillStyle = colorStr;
       ctx.fillRect(x, y, width, height);
     }
 
-    var drawTriangle = function(x1, y1, x2, y2, x3, y3){
+    var drawTriangle = function(colorStr, x1, y1, x2, y2, x3, y3){
+      ctx.strokeStyle = colorStr;
       ctx.beginPath();
       ctx.moveTo(x1, y1);
       ctx.lineTo(x2, y2);
       ctx.lineTo(x3, y3);
       ctx.stroke();
     }
-    var fillTriangle = function(x1, y1, x2, y2, x3, y3){
+    var fillTriangle = function(colorStr, x1, y1, x2, y2, x3, y3){
+      ctx.fillStyle = colorStr;
       ctx.beginPath();
       ctx.moveTo(x1, y1);
       ctx.lineTo(x2, y2);
@@ -40,18 +46,12 @@ CFC.NewCanvas = function(canvasId){
       ctx.fill();
     }
 
-    var drawLine = function(x1, y1, x2, y2){
+    var drawLine = function(colorStr, x1, y1, x2, y2){
+      ctx.strokeStyle = colorStr;
       ctx.beginPath();
       ctx.moveTo(x1, y1);
       ctx.lineTo(x2, y2);
       ctx.stroke();
-    }
-
-    var setDrawColor = function(colorStr){
-      ctx.strokeStyle = colorStr;
-    }
-    var setFillColor = function(colorStr){
-      ctx.fillStyle = colorStr;
     }
 
     CFC.Canvas[canvasId] = {
@@ -62,8 +62,6 @@ CFC.NewCanvas = function(canvasId){
       fillEllipse,
       fillRectangle,
       fillTriangle,
-      setDrawColor,
-      setFillColor,
     }
   }
   return CFC.Canvas[canvasId];
