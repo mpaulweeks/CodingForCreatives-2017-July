@@ -1,0 +1,96 @@
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Christo's Portfolio</title>
+<link rel="shortcut icon" href="http://www.christocunha.com/images/favicon.ico">
+<link rel="apple-touch-icon" href="http://www.christocunha.com/images/apple-touch-icon.ico">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Muli" rel="stylesheet">
+  </head>
+<body>
+  <div class="navbar">
+
+    <ul class="flex">
+
+      <li class="flex-pl">
+    <a class="nav-link" href="index.html">Home</a>
+  </li>
+  <li class="flex-pl">
+    <a class="nav-link" href="skeletons.html">Skeletons</a>
+</li>
+<li class="flex-pl">
+      <a class="nav-link" href="space.html">Space</a>
+</li>
+<li class="flex-pl">
+    <a class="nav-link selected" href="social.html">Social</a>
+</li>
+</ul>
+  </div>
+
+
+<div class="bigimage">
+  <div class="images mySlides">
+    <img src="http://www.christocunha.com/images/lifeline.jpg">
+    <div class="imagetext">
+      "Lifeline" (2015)
+    </div>
+  </div>
+
+  <div class="images mySlides">
+    <img src="http://www.christocunha.com/images/trump.jpg">
+    <div class="imagetext">
+      "Orange Cockwork" (2017)
+    </div>
+  </div>
+
+  <div class="images mySlides">
+    <img src="http://www.christocunha.com/images/warpaint.jpg">
+    <div class="imagetext">
+      "War Paint" (2012)
+    </div>
+  </div>
+
+
+
+    <div class="buttons" style="width:100%">
+      <div class="leftbutton" onclick="plusDivs(-1)">&nbsp &#10094;</div>
+      <div class="rightbutton" onclick="plusDivs(1)">&#10095; &nbsp </div>
+      <span class="scroller buttonhover demo" onclick="currentDiv(1)"></span>
+      <span class="scroller buttonhover demo" onclick="currentDiv(2)"></span>
+      <span class="scroller buttonhover demo" onclick="currentDiv(3)"></span>
+
+    </div>
+
+
+
+
+
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+  function currentDiv(n) {
+    showDivs(slideIndex = n);
+  }
+
+  function showDivs(n) {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    if (n > x.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+       dots[i].className = dots[i].className.replace(" whitebutton", "");
+    }
+    x[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " whitebutton";
+  }
+  </script>
+</div>
+</body>
