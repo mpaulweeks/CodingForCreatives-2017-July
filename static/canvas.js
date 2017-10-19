@@ -5,6 +5,8 @@ CFC.NewCanvas = function(canvasId){
   if (CFC.Canvas[canvasId] === undefined){
     document.getElementById("cfc-canvas-warning").remove();
     var canvas = document.getElementById(canvasId);
+    canvas.width  = canvas.offsetWidth;
+    canvas.height = canvas.offsetHeight;
     var ctx = canvas.getContext('2d');
 
     var drawEllipse = function(colorStr, x, y, width, height){
