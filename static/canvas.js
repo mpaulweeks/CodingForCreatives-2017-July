@@ -3,7 +3,6 @@ CFC.Canvas = {};
 
 CFC.NewCanvas = function(canvasId){
   if (CFC.Canvas[canvasId] === undefined){
-    document.getElementById("cfc-canvas-warning").remove();
     var canvas = document.getElementById(canvasId);
     canvas.width  = canvas.offsetWidth;
     canvas.height = canvas.offsetHeight;
@@ -68,10 +67,3 @@ CFC.NewCanvas = function(canvasId){
   }
   return CFC.Canvas[canvasId];
 }
-
-document.body.innerHTML += `
-  <div id="cfc-canvas-warning">
-    Initialize your canvas with the following code:
-    <pre>var canvas = CFC.NewCanvas("your canvas id");</pre>
-  </div>
-`;
