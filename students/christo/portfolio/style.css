@@ -4,12 +4,6 @@ background-color: #324460;
   height: 100%;
 }
 
-img {
-width: auto;
-height: calc(100% - 65px);
-}
-
-
 .images{
   position:relative
 }
@@ -28,7 +22,9 @@ height: calc(100% - 65px);
   background-color:#fff!important;
 }
 .bigimage {
-  height: 100%;
+  height: calc(100% - 65px);
+ width: auto;
+}
 }
 .buttons {
   font-family: 'Muli';
