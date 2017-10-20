@@ -3,7 +3,10 @@ margin: 0px;
 background-color: #324460;
   height: 100%;
 }
-
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
 .images{
   position:relative
 }
@@ -22,6 +25,7 @@ background-color: #324460;
   background-color:#fff!important;
 }
 .bigimage {
+  height: 100%;
   height: calc(100% - 65px);
  width: auto;
 }
