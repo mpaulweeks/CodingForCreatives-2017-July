@@ -27,26 +27,26 @@
   </div>
 
 
-<div>
+<div class="center">
   <div class="images mySlides">
-    <span class="bigimage"><img src="http://www.christocunha.com/images/thedreamers.jpg" style="width:100%"></span>
+    <img src="http://www.christocunha.com/images/thedreamers.jpg" class="bigimage">
     <div class="imagetext">
       "The Dreamers" (2017)
     </div>
   </div>
 
   <div class="images mySlides">
-   <span class="bigimage">
-     <img src="http://www.christocunha.com/images/magnetism.jpg" style="width:100%">
-    </span>
+
+     <img src="http://www.christocunha.com/images/magnetism.jpg"  class="bigimage">
+
     <div class="imagetext">
       "Magnetism" (2017)
     </div>
   </div>
 
   <div class="images mySlides">
-   <span class="bigimage">
-     <img src="http://www.christocunha.com/images/ammihil.jpg" style="width:100%">
+
+     <img src="http://www.christocunha.com/images/ammihil.jpg"  class="bigimage">
     </span>
     <div class="imagetext">
       "Ammihil" (2015)
@@ -71,15 +71,12 @@
   <script>
   var slideIndex = 1;
   showDivs(slideIndex);
-
   function plusDivs(n) {
     showDivs(slideIndex += n);
   }
-
   function currentDiv(n) {
     showDivs(slideIndex = n);
   }
-
   function showDivs(n) {
     var i;
     var x = document.getElementsByClassName("mySlides");
