@@ -1,0 +1,35 @@
+body {
+margin: 0px; background-color: #E0FCF4; height: 75%;}
+
+img {
+  max-height: 100%;
+  max-width: 100%;}
+
+.navbar {
+  display: block;
+  height: 130px;}}
+
+a {color: #E0FCF4;}
+
+  a:visited  {color: #E0FCF4;}
+
+
+.navbar {
+  font-size: 24px;
+  background-color: black;
+  color: #E0FCF4;
+  font-family: 'helvetica';
+  height: 30px;}
+
+.nav-link {text-decoration: none; padding: 40px;}
+.nav-link:hover {color: #00FBB4;}
+
+@media (max-width: 600px){
+  .responsive {
+    background-color: #E0FCF4;
+  }
+  .navbar {
+    display: block;
+    height: 130px;
+  }
+}
