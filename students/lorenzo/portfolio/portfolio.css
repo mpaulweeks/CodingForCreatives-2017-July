@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('Gotham-Book.otf');
+}
+@font-face {
+  font-family: 'Helvetica';
+  src: url('HelveticaNeueLTStd-UltLt.otf');
+}
+
+.gotham {
+  margin: 0px;
+  font-family: 'Gotham';
+}
+.helvetica {
+  margin: 0px;
+  font-family: 'Helvetica'
+}
+
+
+
+img:hover {
+  cursor: pointer;
+}
+.alligncenter {
+  text-align: center
+}
+
+.padding {
+  padding: 60px
+}
+.mediumfont {
+font-size: : 20px
+}
+
+.imagesize {
+width: 1500px;
+text-align: center;
+}
+
+
+
+
+.smaller {
+  width: 30%;
+  text-align: left;
+
+  }
+  .medium {
+    width: 70%;
+
+  }
+
+
+
+.responsive {
+  width: 100%;
+  padding: 10%;
+  text-align: center;
+
+}
+
+.navbar {
+  font-size: 36px;
+  background-color: lightgreen;
+  color: blue;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding-left: 100px;
+}
+.nav-link:hover {
+  color: black;
+}
+
+.selected {
+  background-color: white;
+  color: black;
+}
+.rift {
+}
+@media (max-width: 800px){
+  .responsive {
+
+  }
+  .nav-link {
+    display: block;
+    padding-left: 20px;
+  }
+}
