@@ -1,6 +1,7 @@
 body {
   margin: 0px;
-  background-color: lightgrey
+  background-color: lightgrey;
+  text-align-last: center;
 
 }
 
@@ -26,17 +27,19 @@ img:hover {
 }
 
 img{
-  height: 50%;
-  width: 35%;
+  text-align: center;
+  height: 60%;
 }
 
 .smaller {
+  text-align: center;
   background-color: whitesmoke;
   font-family: sans-serif;
   font-stretch: ultra-condensed;
 }
 
 .responsive {
+  text-align: center;
   width: 100%;
 
 }
@@ -63,6 +66,7 @@ img{
   padding-left: 20px;
 }
 .selected {
+  text-align: center;
   text-decoration: underline;
 }
 
@@ -75,8 +79,6 @@ div {
 .smaller{
   text-align: center;
   width: 80%;
-  height:: 80%;
-  image-orientation: center;
 
 
 }
@@ -85,6 +87,7 @@ div {
 @media (max-width: 600px){
   .responsive {
     background-color: lightblue;
+    text-align: center;
   }
   .nav-link {
     display: block;
