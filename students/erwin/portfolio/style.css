@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.smaller {
+  width: 100%;
+  border-style: inset;
+  border-color: #c8d9f4;
+  border-width: 50px;
+  box-sizing: border-box;
+}
+
+.landing {width: 100%;
+border-style: inset;
+border-color: #c8d9f4;
+border-width: 50px;
+box-sizing: border-box;
+}
+
+.responsive {
+  width: 100%;
+  padding: 10%;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+
+
+.navbar {
+  font-size: 24px;
+  background-color: lightpink;
+  color: grey;
+  font:helvetica
+}
+
+.nav-link {
+  text-decoration: none;
+  padding-left: 40px;
+}
+.nav-link:hover {
+  background-color:lightgrey;
+  color: white;
+}
+.home {
+  font-size: 40px;
+  padding-left: 20px; font: impact
+
+}
+.selected {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px){
+  .responsive {
+    background-color: salmon;
+  }
+  .nav-link {
+    display: block;
+    padding-left: 20px;
+  }
+}
