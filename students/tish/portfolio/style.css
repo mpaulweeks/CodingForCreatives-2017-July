@@ -53,11 +53,11 @@ img:hover {
 }
 
 @media (max-width: 600px){
-  .responsive {
-    background-color: pink;
+ {
+    background-color: blue;
   }
   .nav-link {
     display: block;
-    padding-left: 20px;
+    padding-left: 50px;
   }
 }
