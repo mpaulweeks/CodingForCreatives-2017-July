@@ -2,15 +2,21 @@
 
 ## Review
 
+- Using <div> to ensure line separated, specifically for centering images
+- CSS styling for images
+  - `width: auto;` or `height: auto;` to maintain aspect ratio
+  - `max-width`
+  - `background-image`
+- How to do mobile CSS
+- CSS classes over-writing each other
+
 ## Lecture
 
 - Introduction to JS
 
 ## Workshop
 
-- Introduction to JS
-  - Number operations
-  - String operations
-  - Conditionals (`if`/`else`)
-  - Use keyboard to move div
-- Canvas
+- Introduction to JS via Canvas
+  - Variables
+  - Numbers
+  - Strings
