@@ -19,3 +19,4 @@ Upload the following to `students/<yourname>/canvas/` by 5pm on Sunday, October 
 - Guide on how to use [CFC.NewCanvas()](canvas.md)
 - Set your `<canvas>` width/height with CSS, and make sure you use pixels (not percent)
 - Strings, like colors, needs quotes around them like `"this"`, but variable names like `canvas` don't.
+- Totally stuck? Try inspecting the page and checking the Console for errors:
