@@ -20,3 +20,6 @@
   - Variables
   - Numbers
   - Strings
+  
+## Homework
+- Upload a [pretty picture](/homework/canvas)
