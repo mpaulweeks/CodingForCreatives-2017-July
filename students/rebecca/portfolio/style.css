@@ -40,7 +40,6 @@ img{
 
 .responsive {
   text-align: center;
-  width: 100%;
 
 }
 
@@ -79,7 +78,8 @@ div {
 .smaller{
   text-align: center;
   width: 80%;
-
+  height: auto;
+  max-width: 500px;
 
 }
 
@@ -93,4 +93,16 @@ div {
     display: block;
     padding-left: 20px;
   }
+}
+
+.img-border {
+  background-color: salmon;
+}
+
+.t1 {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-image: url(illustrations_02.jpg);
+  background-size: cover;
 }

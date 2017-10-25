@@ -80,12 +80,8 @@ text-align: center;
     }
 
 @media (max-width: 600px){
-  .responsive {
-    background-color: salmon;
-  }
   .navbar {
-    display: block;
-    height: 130px;
+    height: 7000px;
   }
 }
 a {

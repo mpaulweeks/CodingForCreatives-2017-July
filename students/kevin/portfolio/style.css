@@ -54,11 +54,14 @@ img:hover {
 }
 
 @media (max-width: 600px){
+  body {
+    background-color: black;
+  }
   .responsive {
     background-color: salmon;
   }
   .nav-link {
     display: block;
-    padding-left: 20px;
+    padding-left: 50px;
   }
 }
