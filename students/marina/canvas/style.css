@@ -1,0 +1,13 @@
+body {
+  margin: 0px;
+}
+
+canvas {
+  width: 800px;
+  height: 550px;
+}
+
+.align {
+  text-align: center;
+  padding: 5%;
+}
