@@ -8,7 +8,9 @@ ask them to implement in class:
 - grandma price grows each time you buy
 - if finish early, start on styling
 
+
 implement the above
+refactor out drawing function
 implement simple messaging log at the end, on grandma events
 
 ask them to implement in homework / remaining class time:
