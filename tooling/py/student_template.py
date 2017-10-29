@@ -2,12 +2,12 @@ import os
 from shutil import copyfile
 
 """
-python wip/py/student_template.py
+python tooling/py/student_template.py
 """
 
 ROOT = '/Users/mpaulweeks/git/mpaulweeks/cfc2017/'
 PATH_STUDENTS = ROOT + 'students'
-PATH_TEMPLATE = ROOT + 'wip/templates'
+PATH_TEMPLATE = ROOT + 'tooling/templates'
 BASE_URL = 'http://cfc2017.mpaulweeks.com'
 
 def copy_file(template_path, student_name, student_path):
