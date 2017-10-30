@@ -13,6 +13,7 @@ Requirements:
   - your current cookie count
   - your current grandma count
   - how much a grandma costs
+- Grandma cost should increase some amount each time one is purchased
 - Display 5 unique messages when different milestones are reached
   - Count by "lifetime" cookies, not what they current have in stock
 - Add custom styles to buttons and display, add images

@@ -8,28 +8,22 @@ var divCookieCounter = document.getElementById("cookie-counter");
 var buttonBakeCookie = document.getElementById("bake-cookie");
 var buttonBuyGrandma = document.getElementById("buy-grandma");
 
-var refreshDisplays = function(){
-  divCookieCounter.innerHTML = cookieCount;
-}
 var bakeCookie = function(){
   cookieCount = cookieCount + 1;
-  refreshDisplays();
+  divCookieCounter.innerHTML = cookieCount;
 }
 var buyGrandma = function(){
   if (cookieCount >= grandmaPrice){
     grandmaCount = grandmaCount + 1;
     cookieCount = cookieCount - grandmaPrice;
-    grandmaPrice = grandmaPrice + grandmaCount;
-    refreshDisplays();
+    divCookieCounter.innerHTML = cookieCount;
   }
 }
 var loop = function(){
   cookieCount = cookieCount + (grandmaCount * 1);
-  refreshDisplays();
+  divCookieCounter.innerHTML = cookieCount;
 }
 
 buttonBakeCookie.addEventListener('click', bakeCookie);
 buttonBuyGrandma.addEventListener('click', buyGrandma);
 setInterval(loop, 1000);
-
-refreshDisplays();
