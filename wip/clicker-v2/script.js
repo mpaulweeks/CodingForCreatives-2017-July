@@ -1,6 +1,7 @@
 
 var cookieCount = 0;
 var grandmaCount = 0;
+var grandmaPrice = 10;
 
 var divCookieCounter = document.getElementById("cookie-counter");
 
@@ -15,7 +16,6 @@ var bakeCookie = function(){
   refreshDisplays();
 }
 var buyGrandma = function(){
-  var grandmaPrice = 10;
   if (cookieCount >= grandmaPrice){
     grandmaCount = grandmaCount + 1;
     cookieCount = cookieCount - grandmaPrice;

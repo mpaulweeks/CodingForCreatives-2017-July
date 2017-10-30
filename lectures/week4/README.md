@@ -13,6 +13,9 @@
 ## Lecture
 
 - Introduction to JS
+  - Variables
+  - Function calls
+  - Syntax
 
 ## Workshop
 
@@ -20,6 +23,7 @@
   - Variables
   - Numbers
   - Strings
-  
+
 ## Homework
+
 - Upload a [pretty picture](/homework/canvas)
