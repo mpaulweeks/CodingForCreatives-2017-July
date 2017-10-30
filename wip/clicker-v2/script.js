@@ -4,7 +4,7 @@ var grandmaCount = 0;
 
 var divCookieCounter = document.getElementById("cookie-counter");
 
-var buttonBakeCookie = document.getElementById("bake");
+var buttonBakeCookie = document.getElementById("bake-cookie");
 var buttonBuyGrandma = document.getElementById("buy-grandma");
 
 var refreshDisplays = function(){
