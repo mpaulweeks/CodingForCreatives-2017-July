@@ -7,24 +7,31 @@
 Use javascript to create a ["Cookie Clicker"](http://orteil.dashnet.org/experiments/cookie/)-style game.
 
 Requirements:
-- User can click something to bake a cookie
-- User can click something to purchase a grandma
+- User can click something to bake a Cookie
+- User can click something to purchase a Grandma
+- User can click something to purchase a Factory
 - Display the following numbers with live updating:
-  - your current cookie count
-  - your current grandma count
-  - how much a grandma costs
-- Grandma cost should increase some amount each time one is purchased
+  - your current Cookie count
+  - your current Grandma count
+  - how much a Grandma costs
+  - your current Factory count
+  - how much a Factory costs
+- Grandma cost should increase some amount each time a Grandma is purchased
+- Factory cost should increase some amount each time a Factory is purchased
 - Display 5 unique messages when different milestones are reached
   - Count by "lifetime" cookies, not what they current have in stock
 - Add custom styles to buttons and display, add images
 
-Upload the following to `students/<yourname>/canvas/` by 5pm on Sunday, October 29
+Upload the following to `students/<yourname>/clicker/` by 5pm on Sunday, November 5
 - `index.html`
 - a `css` file to style your displays
 - a `js` file to run the game
 
 ## Tips
 - For HTML ids, use hyphens like `<div id="cookie-clicker"></div>`
-- For JS variables, use camel casing like `var cookieCount = 0;`
-- Totally stuck? Try inspecting the page and checking the Console for errors:
-![](console.png)
+- For JS variables, use camel casing like `var grandmaCost = 0;`
+- Is it taking forever to test your factories? Just decrease the cost, or change how many cookies you start with
+- Feel free to change the "flavor", it doesn't have to be about cookies and grandmas and factories, as long as the mechanics are the same
+- Is it not working? Try inspecting the page and checking the Console for errors:
+![](../canvas/console.png)
+- When in doubt, re-read all your code very carefully! Look for issues with spelling, capitalization, and punctuation
