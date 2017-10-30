@@ -1,0 +1,11 @@
+
+body {
+  margin: 0px;
+}
+
+canvas {
+  width: 1000px;
+  height: 700px;
+}
+
+var canvas=CFC.NewCanvas("artwork")
