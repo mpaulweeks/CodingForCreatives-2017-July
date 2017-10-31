@@ -9,7 +9,7 @@ var lEyeXmiddle = "150";
 var rEyeXmiddle = "250";
 var EyeYmiddle = "150";
 
-var EyeW = "90";
+var EyeW = 90;
 var EyeBW = "50";
 var EyeCW = "70";
 

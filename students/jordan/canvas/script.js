@@ -25,13 +25,16 @@ canvas.fillRectangle("#84C0B7", 495, 130, 105, 35);
 canvas.fillRectangle("#B9E2CD", 500, 135, 100, 30);
 // camera base structure
 canvas.fillRectangle(lightColor, 250, 250, 600, 300);
+
 // camera thick stripe
 canvas.fillRectangle("#0B3B39", 250, 300, 600, 200);
+
 // camera base structure edge shadows
 canvas.fillRectangle(shade, 250, 250, 20, 300);
 canvas.fillRectangle(shade, 820, 250, 30, 300);
 canvas.fillRectangle(dark, 250, 250, 10, 300);
 canvas.fillRectangle(dark, 835, 250, 15, 300);
+
 // camera thick stripe edge shadows
 canvas.fillRectangle("#061515", 250, 300, 10, 200);
 canvas.fillRectangle("#061515", 830, 300, 20, 200);
@@ -52,7 +55,7 @@ canvas.fillEllipse("#0A1B2A", 550, 400, 80, 80);
 
 //red circle button
 canvas.fillEllipse(lightColor, 350, 300, 35, 35);
-canvas.fillEllipse("#B81506", 350, 300, 25, 25);
+canvas.fillEllipse("green", 350, 300, 25, 25);
 
 // glare circles
 canvas.fillEllipse("#B6C7C4", 475, 360, 50, 50);
