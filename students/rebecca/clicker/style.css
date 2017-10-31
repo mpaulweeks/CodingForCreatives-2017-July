@@ -1,0 +1,33 @@
+button:hover {
+  cursor: pointer;
+}
+body {
+
+  background-color: lightblue;
+  color: white;
+  text-align: center;
+  font-size: 18;
+  font-family: cursive;
+}
+.header {
+  color: #f9dbf7;
+  font-size: 40;
+  text-decoration: underline;
+  font-weight: bold;
+
+}
+.total {
+  font-size: 24;
+  font-weight: bold;
+  color: #f9dbf7;
+}
+
+.msg {
+  color: #22a7f9;
+  font-family: fantasy;
+  font-size: 16;
+
+}
+img {
+  height: 100px;
+}
