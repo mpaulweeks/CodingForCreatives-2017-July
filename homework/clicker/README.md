@@ -28,10 +28,15 @@ Upload the following to `students/<yourname>/clicker/` by 5pm on Sunday, Novembe
 - a `js` file to run the game
 
 ## Tips
+
 - For HTML ids, use hyphens like `<div id="cookie-clicker"></div>`
 - For JS variables, use camel casing like `var grandmaCost = 0;`
 - Is it taking forever to test your factories? Just decrease the cost, or change how many cookies you start with
 - Feel free to change the "flavor", it doesn't have to be about cookies and grandmas and factories, as long as the mechanics are the same
+- Remember the three steps to displaying/updating text with JS:
+  - Create an HTML tag with an id
+  - In JS, get that element by its id and store it in a variable
+  - During `funcUpdateHTML`, set the elements `innerHTML` to the new text
 - Is it not working? Try inspecting the page and checking the Console for errors:
 ![](../canvas/console.png)
 - When in doubt, re-read all your code very carefully! Look for issues with spelling, capitalization, and punctuation

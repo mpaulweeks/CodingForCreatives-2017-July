@@ -2,12 +2,12 @@
 
 ## Review
 
-TBD
+- Strings vs Numbers
+- Using Comments to "soft deleted" code vs document it
 
 ## Lecture
 
 - Deeper dive on JS
-  - Strings vs Numbers
   - `document.getElementById("id")`
   - Defining functions
   - Calling functions
