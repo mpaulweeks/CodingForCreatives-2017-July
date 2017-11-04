@@ -1,3 +1,11 @@
 # Week 6
 
-Coming soon...
+## Review
+
+## Lecture
+
+## Workshop
+
+## Homework
+
+- [???](/homework/???)

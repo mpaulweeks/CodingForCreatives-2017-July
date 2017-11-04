@@ -1,3 +1,12 @@
 # Week 7
 
-Coming soon...
+## Review
+
+## Lecture
+
+## Workshop
+
+## Homework
+
+- [???](/homework/???)
+- Submit the idea for your [Final Project](/homework/final)
