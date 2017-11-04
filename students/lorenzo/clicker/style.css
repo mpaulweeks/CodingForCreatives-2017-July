@@ -1,0 +1,16 @@
+button:hover {
+  cursor: pointer;
+}
+.smaller {
+  width : 40%;
+  }
+  img {
+    height: 200px;
+  }
+  .centered {
+    text-align: center;
+    }
+  .titles {
+    font-family: sans-serif;
+    font-size: 50px;
+    }
