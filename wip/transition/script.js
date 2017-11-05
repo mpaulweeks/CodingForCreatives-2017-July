@@ -26,4 +26,4 @@ var handleKeyDown = function(event){
 document.getElementById("left").addEventListener('click', shiftLeft);
 document.getElementById("right").addEventListener('click', shiftRight);
 document.addEventListener('keydown', handleKeyDown);
-elms[currI].classList.add('visible');
+elms[currIndex].classList.add('visible');
