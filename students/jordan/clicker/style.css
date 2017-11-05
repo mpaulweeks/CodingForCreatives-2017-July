@@ -2,8 +2,7 @@ button:hover {
   cursor: pointer;
 }
 body {
-
-  background-image: url("Kitchen.png");
+  background-image:url('kitchen.png');
   background-repeat: no-repeat;
   color: white;
   text-align: center;
