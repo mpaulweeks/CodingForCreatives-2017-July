@@ -1,0 +1,97 @@
+button:hover {
+  cursor: pointer;
+}body {
+  background: linear-gradient(to bottom, #ffcc99 0%, #ff8c1a 100%);
+  text-align: center;
+}
+.kevin {
+  text-align: center;
+}
+.dirrty {
+  color: red;
+}
+
+.comments-top-container {
+  margin: auto;
+  border: 20px solid #00ffcc;
+  width: 600px;
+  padding: 10px;
+}
+.comments-top-header {
+  font-size: 20px;
+  padding: 10px;
+}
+.comments-empty {
+  font-size: 20px;
+  color: #888888;
+}
+
+.comment-container {
+  position: relative;
+  background-color: #f2eec1;
+  padding: 2px;
+  margin: auto;
+}
+
+.comment-name {
+  background-color: #f7f5e1;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.comment-text {
+  background-color: #f7f5e1;
+  padding: 5px;
+  font-size: 16px;
+}
+.comment-delete {
+  position: absolute;
+  text-decoration: none;
+  top: 3px;
+  right: 5px;
+  color: red;
+}
+.comment-delete:hover {
+  cursor: pointer;
+}
+.comment-delete:after {
+  content: "\2717";
+}
+body {background-color: #ffeaf6;
+font-family: 'Helvetica', serif;
+font-size: 24pt;}
+
+p {font-size: 16pt;}
+
+.toys {color: #ec009c;}
+
+.elf {color: #447ccb;}
+
+.factory {color: #598627;}
+
+button:hover {
+  cursor: pointer;
+}
+.flex {
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-m {
+  padding: 4px;
+  flex: 1;
+}
+
+button {width: 600px;
+  height: 600px;
+}
