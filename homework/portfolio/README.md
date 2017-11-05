@@ -1,5 +1,7 @@
 # Portfolio
 
+[View the lecture notes](https://github.com/mpaulweeks/cfc2017/tree/master/lectures/week3)
+
 [View the example web page](http://cfc2017.mpaulweeks.com/homework/portfolio/example)
 
 ## Assignment

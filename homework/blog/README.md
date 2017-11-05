@@ -1,5 +1,7 @@
 # Blog
 
+[View the lecture notes](https://github.com/mpaulweeks/cfc2017/tree/master/lectures/week2)
+
 [View the example web page](http://cfc2017.mpaulweeks.com/homework/blog/example)
 
 Read `example/index.html` for an example of how to create a form and import the comments CSS and JS.

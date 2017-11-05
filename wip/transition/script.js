@@ -1,41 +1,29 @@
-
-var currI = 0;
+var currIndex = 0;
 var elms = Array.from(document.getElementsByClassName('panel'));
 
-var fixPosition = function(){
-  for (var i = 0; i < elms.length; i++){
-    if (i < currI){
-      elms[i].style.left = "-100%";
-    }
-    if (i == currI){
-      elms[i].style.left = "0%";
-    }
-    if (i > currI){
-      elms[i].style.left = "100%";
-    }
-  }
-}
 var shiftLeft = function(){
-  if (currI < elms.length - 1){
-    currI = currI + 1;
-    fixPosition();
+  if (currIndex < elms.length - 1){
+    currIndex = currIndex + 1;
+    elms[currIndex].classList.add('visible');
   }
 }
 var shiftRight = function(){
-  if (currI > 0){
-    currI = currI - 1;
-    fixPosition();
+  if (currIndex > 0){
+    elms[currIndex].classList.remove('visible');
+    currIndex = currIndex - 1;
   }
 }
-
-fixPosition();
-document.getElementById("left").addEventListener('click', shiftLeft);
-document.getElementById("right").addEventListener('click', shiftRight);
-document.addEventListener('keydown', (event) => {
+var handleKeyDown = function(event){
+  console.log(event);
   if (event.code === 'ArrowLeft') {
     shiftLeft();
   }
   if (event.code === 'ArrowRight') {
     shiftRight();
   }
-});
+};
+
+document.getElementById("left").addEventListener('click', shiftLeft);
+document.getElementById("right").addEventListener('click', shiftRight);
+document.addEventListener('keydown', handleKeyDown);
+elms[currI].classList.add('visible');

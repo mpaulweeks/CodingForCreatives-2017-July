@@ -2,18 +2,27 @@
 
 ## Review
 
-- Homework and class expectations
+- Review clicker homework
+- Discuss grading, homework and class expectations
+- Overall plan for upcoming weeks
 
 ## Lecture
 
-- More Javascript/HTML interaction
-  - Adding/Removing Classes
-  - Showing/Hiding
-  - Getting/Setting `<input>` values
-- `for` loops
+- `position: relative` vs `absolute` vs `fixed`
+- basics of `flex`
+- `z-index`
+- `left` and friends
+- adding classes with Javascript
+- `transition`
+- Javascript arrays
+- `console.log()`
+- Keyboard listeners and function parameters
+- setting `elm.style` directly
 
 ## Workshop
 
+- Get started on homework
+
 ## Homework
 
-- [???](/homework/???)
+- Make an [interactive page](/homework/interactive)
