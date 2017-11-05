@@ -1,0 +1,47 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Rozha+One" rel="stylesheet">
+  <script type="text/javascript" src="script.js" defer></script>
+  <title>God dammit, Santa.</title>
+</head>
+<body>
+  <ul class="flex">
+  <li class="flex-m">
+<h1>SANTA MESSED UP.</h1>
+<img src="santa.png">
+<p>He forgot to make all the toys he needed for this year! <br>Click the machine to help him out and make some toys!</p>
+<p>Once you have enough, recruit Elves and build Factories to get production really going!</p>
+
+</li>
+<li class="flex-m">
+<div class="toys">
+    Toys: <span id="toy-count">0</span> •
+    <span class="toys">
+    Total Toys: <span id="total-toy-count">0</span>
+  </div>
+  <div class="elf">
+    Elves: <span id="elf-count">0</span>
+  •
+    Next Elf Costs: <span id="elf-cost">5</span>
+  </div>
+  <div class="factory">
+    Factories: <span id="factory-count">0</span>
+ •
+
+    Next Factory Costs: <span id="factory-cost">20</span>
+  </div>
+
+  </div>
+  <button id="make-toy" style="border: 0; background: transparent">
+    <img src="toymaker.png" alt="Make Toy" />
+</button>
+  <button id="enlist-elf" style="border: 0; background: transparent">
+    <img src="enlistelf.png" alt="Enlist Elf" />
+  </button>
+  <button id="build-factory" style="border: 0; background: transparent">
+    <img src="buildfactory.png" alt="Build Factory" />
+  </button>
+  <h1>  <span id="message-progress"></span></h1>
+</li>
+</ul>
+</body>
