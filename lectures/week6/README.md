@@ -3,6 +3,7 @@
 ## Review
 
 - Review clicker homework
+- Review homework survey
 - Discuss grading, homework and class expectations
 - Overall plan for upcoming weeks
 
