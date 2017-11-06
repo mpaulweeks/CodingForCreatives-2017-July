@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+  font-family: Phosphate;
+  font-size: 300%;
+  letter-spacing: 2px;
+}
+
+body {
+  text-align: center;
+  font-family: quicksand;
+}
+
+
+button:hover {
+  cursor: pointer;
+  font-family: quicksand;
+}
