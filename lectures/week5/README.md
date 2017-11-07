@@ -5,7 +5,7 @@
 - Strings vs Numbers
 - Using Comments to "soft deleted" code vs document it
 
-## Lecture
+## Workshop
 
 - Deeper dive on JS
   - `document.getElementById("id")`
@@ -13,10 +13,6 @@
   - Calling functions
   - If statements
   - `setInterval(func, 1000)`
-
-## Workshop
-
-- Walk them through beginning of clicker game
 
 ## Homework
 

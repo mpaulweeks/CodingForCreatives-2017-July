@@ -4,8 +4,12 @@
 
 ## Lecture
 
+- Servers vs DNS
+- Configuring a DNS
+
 ## Workshop
 
+- Setup your own project/web page hosted by GitHub
 - Begin [Final Project](/homework/final) in class
 
 ## Homework

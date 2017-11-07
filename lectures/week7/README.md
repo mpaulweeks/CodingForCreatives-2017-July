@@ -9,4 +9,4 @@
 ## Homework
 
 - [???](/homework/???)
-- Submit the idea for your [Final Project](/homework/final)
+- Upload the idea for your [Final Project](/homework/final)
