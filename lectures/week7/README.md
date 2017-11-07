@@ -6,6 +6,10 @@
 
 ## Workshop
 
+- `<title>`
+- `<favicon>`
+- `<meta>`
+
 ## Homework
 
 - [???](/homework/???)
