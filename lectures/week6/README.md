@@ -19,6 +19,9 @@
 - `console.log()`
 - Keyboard listeners and function parameters
 - setting `elm.style` directly
+- Password strength
+  - [Estimating password cracking times](https://www.betterbuys.com/estimating-password-cracking-times/)
+  - [xkcd comic](https://xkcd.com/936/)
 
 ## Workshop
 
