@@ -17,6 +17,7 @@ Requirements:
 - User can interact with the page, which triggers JS, which triggers CSS change
 - Actions should be safely repeatable by the User
   - eg: Clicking a DELETE button a second time can do nothing, but it must not error
+- If doing slides, include at least 5 different slides
 
 Upload the following to `students/<yourname>/interactive/` by 5pm on Sunday, November 12
 - `index.html`
