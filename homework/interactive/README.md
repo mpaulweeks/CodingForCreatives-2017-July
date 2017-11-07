@@ -32,6 +32,7 @@ Upload the following to `students/<yourname>/interactive/` by 5pm on Sunday, Nov
 
 ### JS
 
+- Experiment with `console.log()`, and view the results in the Inspect Console
 - If you try to use `classList.add()` when it's already there or `classList.remove()` when it's already missing, it will quietly do nothing
 - If using Arrays, remember: the indexes start at zero and go up to (length - 1)
   - Indexes for `["a", "b", "c"]` are `[0, 1, 2]`
