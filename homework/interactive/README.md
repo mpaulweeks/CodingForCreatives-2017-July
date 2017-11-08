@@ -28,8 +28,10 @@ Upload the following to `students/<yourname>/interactive/` by 5pm on Sunday, Nov
 
 ### CSS
 
-- If `transition` is only on the "extra" class (eg `.visible`), it won't work when that class is removed
-  - Instead, add it to a base class that's always present
+- In the example, we set `transition-property: left;` so it only animates the changes to the property `left`.
+  - If you want to catch all changes, try this instead: `transition-property: all;`
+- `transition` properties on the "extra" class (eg `.visible`) won't animate when the class is removed
+  - Instead, put them all on the "base class", ie the one that's always present like `slide` in the example
 
 ### JS
 
