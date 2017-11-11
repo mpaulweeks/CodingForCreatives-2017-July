@@ -1,14 +1,28 @@
 
 var charSet = 'abcdefghijklmnopqrstuvwxyz';
 var divOutput = document.getElementById('output');
+var speedBump = 5;
 
 var print = function(message){
-  console.log(message);
+  // console.log(message);
   divOutput.innerHTML = `<pre>${message}</pre>` + divOutput.innerHTML;
 }
 
+var printIndexes = function(indexes, guess){
+  var message = '';
+  for (var i = 0; i < guess.length; i++){
+    if (i == 0 || guess.length - i > speedBump){
+      message += guess[i];
+    } else {
+      message += '?';
+    }
+  }
+  print(`checked up to ${message}`);
+}
+
 var bruteForce = function(checkFunc, chars, indexes){
-  console.log('new process');
+  // console.log('new process');
+
   var opts = chars.length;
   var newProcess = false;
   while (!newProcess){
@@ -31,9 +45,9 @@ var bruteForce = function(checkFunc, chars, indexes){
         carry = false;
       } else {
         if (pos == indexes.length - 1 || pos >= 5){
-          print(guess);
+          printIndexes(indexes, guess);
         }
-        if (pos >= 5){
+        if (pos >= 5 || (pos == 4 && indexes.length == 5)){
           newProcess = true;
         }
 
@@ -58,7 +72,8 @@ var bruteForce = function(checkFunc, chars, indexes){
 // var password = params[params.indexOf('password') + 1] || 'hunter';
 // divTarget.innerHTML = password;
 
-document.getElementById('start').addEventListener('click', function(){
+document.getElementById('pass-form').addEventListener('submit', function(evt){
+  evt.preventDefault();
   divOutput.innerHTML = 'starting up...';
   var password = document.getElementById('target').value;
   var checkFunc = function(guess){
