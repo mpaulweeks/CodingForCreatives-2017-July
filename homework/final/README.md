@@ -4,9 +4,9 @@
 
 Deadline: 5pm on Sunday, November 19
 
-- Modify the `README.md` in your folder to describe your final project
+- Modify the `README.md` in your `final` folder to describe your final project
 
-The goal is to have something written down we can discuss, and I can tell you ahead of time if it's too modest / difficult.
+The goal is to have something written down we can discuss, so I can tell you ahead of time if it's too modest / difficult.
 
 ## Week 8 - Begin prototyping
 
@@ -16,7 +16,7 @@ Deadline: 5pm on Sunday, November 26
 
 This is so I can get a picture of the direction you're taking, and we can discuss technical challenges.
 
-This is also when I'll set explicit requirements for each individual project.
+This is also when I'll set explicit requirements for each individual project (eg You're making a portfolio? I needs this and that)
 
 ## Week 9 - Submit the Final Project
 
