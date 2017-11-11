@@ -2,13 +2,14 @@
 var charSet = 'abcdefghijklmnopqrstuvwxyz';
 var divOutput = document.getElementById('output');
 var speedBump = 5;
+var currentRun = 0;
 
 var print = function(message){
   // console.log(message);
   divOutput.innerHTML = `<pre>${message}</pre>` + divOutput.innerHTML;
 }
 
-var printIndexes = function(indexes, guess){
+var printProgress = function(guess){
   var message = '';
   for (var i = 0; i < guess.length; i++){
     if (i == 0 || guess.length - i > speedBump){
@@ -20,8 +21,13 @@ var printIndexes = function(indexes, guess){
   print(`checked up to ${message}`);
 }
 
-var bruteForce = function(checkFunc, chars, indexes){
+var bruteForce = function(runId, checkFunc, chars, indexes){
   // console.log('new process');
+
+  if (currentRun != runId){
+    print('aborted');
+    return;
+  }
 
   var opts = chars.length;
   var newProcess = false;
@@ -45,7 +51,7 @@ var bruteForce = function(checkFunc, chars, indexes){
         carry = false;
       } else {
         if (pos == indexes.length - 1 || pos >= 5){
-          printIndexes(indexes, guess);
+          printProgress(guess);
         }
         if (pos >= 5 || (pos == 4 && indexes.length == 5)){
           newProcess = true;
@@ -79,7 +85,8 @@ document.getElementById('pass-form').addEventListener('submit', function(evt){
   var checkFunc = function(guess){
     return guess === password;
   }
+  currentRun += 1;
   setTimeout(function(){
-    bruteForce(checkFunc, charSet, [0]);
+    bruteForce(currentRun, checkFunc, charSet, [0]);
   }, 0);
 });

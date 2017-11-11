@@ -2,7 +2,11 @@
 
 ## Review
 
+- Review interactive homework
+
 ## Lecture
+
+- Revisit password discussion, show [brute force example](http://cfc2017.mpaulweeks.com/lectures/week7/password/)
 
 ## Workshop
 
