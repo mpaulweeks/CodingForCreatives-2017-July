@@ -70,7 +70,7 @@ var bruteForce = function(runId, checkFunc, chars, indexes){
   }
 
   setTimeout(function(){
-    bruteForce(checkFunc, chars, indexes);
+    bruteForce(runId, checkFunc, chars, indexes);
   }, 0);
 }
 
