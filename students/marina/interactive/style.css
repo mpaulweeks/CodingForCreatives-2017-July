@@ -1,0 +1,137 @@
+body {
+  margin: 0px;
+}
+
+.nav {
+  position: fixed;
+  top: 10px;
+  left: 100px;
+  z-index: 10;
+}
+
+.slide {
+  font-size: 100px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+
+  transition-property: left;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+
+  left: 100%;
+}
+.slide-visible {
+  left: 0%;
+}
+
+.image_centered {
+  display: block;
+  margin: auto;
+}
+
+#slide1 {
+  background-color: #fff3c3;
+}
+#slide2 {
+  background-color: #e2e2e2;
+}
+#slide3 {
+  background-color: #a5a5a5;
+}
+#slide4 {
+  background-color: #e2e2e2;
+}
+#slide5 {
+  background-color: #a5a5a5;
+}
+#slide6 {
+  background-color: #e2e2e2;
+}
+
+.helper-open {
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+
+  padding: 6px 10px;
+  background-color: white;
+  color: black;
+
+  position: fixed;
+  right: 100px;
+  bottom: 50px;
+
+  z-index: -1;
+}
+.helper {
+  position: fixed;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  color: black;
+  height: 185px;
+  width: 130px;
+  right: 50px;
+  bottom: 50px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  z-index: -1;
+}
+.on-top {
+  z-index: 1;
+}
+
+.prev {
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+
+  padding: 6px 10px;
+  background-color: white;
+  color: black;
+
+  position: fixed;
+  top: 50px;
+  left: 100px;
+  z-index: 10;
+}
+
+.next {
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+
+  padding: 6px 10px;
+  background-color: white;
+  color: black;
+
+  position: fixed;
+  top: 50px;
+  right: 100px;
+  z-index: 10;
+}
+
+a:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+a:visited {
+  color: #d71a21  ;
+}
