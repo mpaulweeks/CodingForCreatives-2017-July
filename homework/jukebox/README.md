@@ -1,6 +1,6 @@
 # Jukebox
 
-[View the lecture notes](https://github.com/mpaulweeks/cfc2017/tree/master/lectures/week7)
+[View the lecture notes](/lectures/week7)
 
 ## Assignment
 
@@ -20,7 +20,7 @@ Upload the following to `students/<yourname>/jukebox/` by 5pm on Sunday, Novembe
 
 ## Tips
 
-- Check the [examples folder](https://github.com/mpaulweeks/cfc2017/tree/master/homework/jukebox/example)) for starting bits of HTML
+- Check the [examples folder](/homework/jukebox/example)) for starting bits of HTML
 - Your favicon must be either a `.png` or a `.gif`
 - After uploading, test your meta tags with the [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/sharing)
 - Read more about the [`<audio>` tag documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
