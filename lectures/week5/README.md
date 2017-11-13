@@ -2,6 +2,8 @@
 
 ## Review
 
+[View code changes made in class](https://github.com/mpaulweeks/cfc2017/compare/week5)
+
 - Strings vs Numbers
 - Using Comments to "soft deleted" code vs document it
 
