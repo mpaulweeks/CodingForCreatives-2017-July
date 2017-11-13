@@ -3,6 +3,9 @@
 ## Review
 
 - Review interactive homework
+  - Christo: `background` options
+  - Marina: hiding buttons based on state via opacity
+  - Rebecca: reset back to first position via while loop
 
 ## Lecture
 
