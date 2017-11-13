@@ -1,8 +1,8 @@
 # Canvas
 
-[View the lecture notes](https://github.com/mpaulweeks/cfc2017/tree/master/lectures/week4)
+[View the lecture notes](/lectures/week4)
 
-[View the example code](https://github.com/mpaulweeks/cfc2017/tree/master/homework/canvas/example)
+[View the example code](/homework/canvas/example)
 
 ## Assignment
 

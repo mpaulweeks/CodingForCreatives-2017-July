@@ -1,8 +1,8 @@
 # Clicker
 
-[View the lecture notes](https://github.com/mpaulweeks/cfc2017/tree/master/lectures/week5)
+[View the lecture notes](/lectures/week5)
 
-[View the example code](https://github.com/mpaulweeks/cfc2017/tree/master/homework/clicker/example)
+[View the example code](/homework/clicker/example)
 
 ## Assignment
 

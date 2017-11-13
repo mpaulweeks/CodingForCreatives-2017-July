@@ -1,6 +1,6 @@
 # Interactive
 
-[View the lecture notes](https://github.com/mpaulweeks/cfc2017/tree/master/lectures/week6)
+[View the lecture notes](/lectures/week6)
 
 ## Assignment
 

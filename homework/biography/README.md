@@ -1,6 +1,6 @@
 # Biography
 
-[View the lecture notes](https://github.com/mpaulweeks/cfc2017/tree/master/lectures/week1)
+[View the lecture notes](/lectures/week1)
 
 [View the example web page](http://cfc2017.mpaulweeks.com/homework/biography/example)
 
