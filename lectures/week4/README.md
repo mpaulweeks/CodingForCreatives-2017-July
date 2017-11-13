@@ -2,6 +2,8 @@
 
 ## Review
 
+[View code changes made in class](https://github.com/mpaulweeks/cfc2017/compare/week4)
+
 - Using <div> to ensure line separated, specifically for centering images
 - CSS styling for images
   - `width: auto;` or `height: auto;` to maintain aspect ratio
