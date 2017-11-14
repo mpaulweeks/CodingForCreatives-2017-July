@@ -4,6 +4,8 @@
 
 [View the example code](/homework/jukebox/example) (some assembly required)
 
+[View the other homework assignment](/homework/final)
+
 ## Assignment
 
 Create a web page that plays audio and looks good when you share it.

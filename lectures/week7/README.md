@@ -4,6 +4,7 @@
 
 - Review interactive homework
   - Christo: `background` options
+    - [cover vs contain](https://css-tricks.com/almanac/properties/b/background-size/)
   - Marina: hiding buttons based on state via opacity
   - Rebecca: reset back to first position via while loop
 
@@ -26,6 +27,8 @@
   - `<title>`
   - `<favicon>`
   - `<meta>`
+- `display: none;`
+- `visibility: hidden;`
 - `<audio>` tag
 - Embedding YouTube and `&autoplay=1`
 
