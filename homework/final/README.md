@@ -4,8 +4,6 @@ The final project can be one or many pages. It should be the culmination of your
 
 ## Week 7 - Drafting an Idea
 
-[View the other homework assignment](/homework/jukebox)
-
 Deadline: 5pm on Sunday, November 19
 
 Requirements:

@@ -4,8 +4,6 @@
 
 [View the example code](/homework/jukebox/example) (some assembly required)
 
-[View the other homework assignment](/homework/final)
-
 ## Assignment
 
 Create a web page that plays audio and looks good when you share it.
@@ -24,6 +22,9 @@ Upload the following to `students/<yourname>/jukebox/` by 5pm on Sunday, Novembe
 
 ## Tips
 
+- Make sure your meta URL matches the URL of your site after it's uploaded!
+  - Easy way to find out the URL: open your page from the [home site](http://cfc2017.mpaulweeks.com/)
+  - The URL looks like this: `http://cfc2017.mpaulweeks.com/students/yourname/jukebox` (replace yourname)
 - You should only be uploading a single HTML file! Combine the elements from the examples to make your jukebox page
 - Your favicon must be either a `.png` or a `.gif`
 - After uploading, test your meta tags with the [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/sharing)
