@@ -1,0 +1,22 @@
+
+4 lines (3 sloc)  29 Bytes
+.hidden {
+display: none;
+}
+
+body{
+  background-color: pink;
+  color: #4fb5ff;
+  text-align: center;
+  font-style: normal;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-size: 26pt;
+
+}
+
+.if{
+font-size: 20pt;
+color: white;
+font-family: sans-serif;
+}
