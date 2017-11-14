@@ -24,6 +24,7 @@ Upload the following to `students/<yourname>/jukebox/` by 5pm on Sunday, Novembe
 
 ## Tips
 
+- You should only be uploading a single HTML file! Combine the elements from the examples to make your jukebox page
 - Your favicon must be either a `.png` or a `.gif`
 - After uploading, test your meta tags with the [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/sharing)
 - Read more about the [`<audio>` tag documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio)
