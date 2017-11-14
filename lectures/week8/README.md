@@ -4,6 +4,15 @@
 
 ## Lecture
 
+- Talk about software engineering
+  - Product teams
+  - Getting a software project shipped
+    - Product design
+    - UX design
+    - Backend development
+    - Frontend development
+    - Testing
+  - [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)
 - Servers vs DNS
 - Configuring a DNS
 

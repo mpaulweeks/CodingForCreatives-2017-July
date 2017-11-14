@@ -4,6 +4,7 @@
 
 - Review interactive homework
   - Christo: `background` options
+    - `background-position: center center;`
     - [cover vs contain](https://css-tricks.com/almanac/properties/b/background-size/)
   - Marina: hiding buttons based on state via opacity
   - Rebecca: reset back to first position via while loop
@@ -11,15 +12,16 @@
 ## Lecture
 
 - Revisit password discussion, show [brute force example](http://cfc2017.mpaulweeks.com/lectures/week7/password/)
-- Talk about software engineering
-  - Product teams
-  - Getting a software project shipped
-    - Product design
-    - UX design
-    - Backend development
-    - Frontend development
-    - Testing
-  - [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)
+  - Revisit rate limiting
+- Discuss the dark web
+  - [surface vs deep vs dark](https://brightplanet.com/2014/03/clearing-confusion-deep-web-vs-dark-web/)
+  - TOR / Onion and proxies
+- What happens when I'm hacked?
+  - Vandalism
+  - Zombies and [Botnets](https://en.wikipedia.org/wiki/Botnet)
+- Extortion via Hacking
+  - Using a Botnet to coordinate a [DDoS](https://en.wikipedia.org/wiki/Denial-of-service_attack)
+  - [Ransomware](https://en.wikipedia.org/wiki/Ransomware)
 
 ## Workshop
 
