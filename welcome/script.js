@@ -17,11 +17,18 @@
     roster.students.forEach(s => {
       var sHtml = `<td class="projects-name">${s}</td>`;
       roster.projects.forEach(p => {
-        sHtml += `
-          <td class="projects-cell">
-            <a target="_blank" href="https://github.com/mpaulweeks/cfc2017/tree/master/students/${s}/${p}">code</a>
-            <a target="_blank" href="http://cfc2017.mpaulweeks.com/students/${s}/${p}">site</a>
-          </td>`;
+        if (p === 'final'){
+          sHtml += `
+            <td class="projects-cell">
+              <a target="_blank" href="https://github.com/mpaulweeks/cfc2017/tree/master/students/${s}/${p}">docs</a>
+            </td>`;
+        } else {
+          sHtml += `
+            <td class="projects-cell">
+              <a target="_blank" href="https://github.com/mpaulweeks/cfc2017/tree/master/students/${s}/${p}">code</a>
+              <a target="_blank" href="http://cfc2017.mpaulweeks.com/students/${s}/${p}">site</a>
+            </td>`;
+        }
       });
       bodyHtml += `<tr>${sHtml}</tr>`;
     });
