@@ -78,6 +78,8 @@ background-color: #324460;
   transition-timing-function: ease-in-out;
 
   left: 100%;
+
+  background-position: center center;
 }
 .slide-visible {
   left: 0%;

@@ -22,6 +22,15 @@ var funcNext = function(){
   if (slideIndex < slides.length - 1){
     slideIndex = slideIndex + 1;
     slides[slideIndex].classList.add("slide-visible");
+  } else {
+    funcPrev();
+    funcPrev();
+    funcPrev();
+    funcPrev();
+    funcPrev();
+    funcPrev();
+    funcPrev();
+    funcPrev();
   }
 }
 var funcKeyDown = function(event){

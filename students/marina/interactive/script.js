@@ -14,6 +14,9 @@ var funcOpenHelper = function(){
 }
 
 var funcPrev = function(){
+  if (slideIndex == slides.length - 1){
+    buttonNext.classList.remove('button-hidden');    
+  }
   if (slideIndex > 0){
     slides[slideIndex].classList.remove("slide-visible");
     slideIndex = slideIndex - 1;
@@ -23,6 +26,9 @@ var funcNext = function(){
   if (slideIndex < slides.length - 1){
     slideIndex = slideIndex + 1;
     slides[slideIndex].classList.add("slide-visible");
+  }
+  if (slideIndex == slides.length - 1){
+    buttonNext.classList.add('button-hidden');
   }
 }
 var funcKeyDown = function(event){

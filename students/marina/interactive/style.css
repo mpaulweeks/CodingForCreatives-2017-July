@@ -126,6 +126,10 @@ body {
   z-index: 10;
 }
 
+.button-hidden {
+  z-index: -1;
+}
+
 a:hover {
   cursor: pointer;
   background-color: black;
