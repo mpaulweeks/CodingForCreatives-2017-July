@@ -1,0 +1,21 @@
+
+
+4 lines (3 sloc)  29 Bytes
+.hidden {
+display: none;
+}
+
+body{
+  background-color: white;
+  text-align: center;
+  font-style: normal;
+  font-size: 300px;
+ font-family: 'futura', sans-serif;
+
+}
+
+.if{
+font-size: 200px;
+color: white;
+font-family: 'futura', sans-serif;
+}
