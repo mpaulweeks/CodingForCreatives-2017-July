@@ -2,6 +2,10 @@
 
 The final project can be one or many pages. It should be the culmination of your knowledge and experience in this class. It should be polished. Above all, you should be proud and eager to show it to your friends and/or peers.
 
+I would like to make a functional Website to feature a simple version of my portfolio!
+
+
+
 ## Week 7 - Drafting an Idea
 
 Deadline: 5pm on Sunday, November 19
