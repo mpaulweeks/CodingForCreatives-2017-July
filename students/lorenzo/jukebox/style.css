@@ -1,0 +1,12 @@
+.hidden {
+  display: none;
+}
+.centered {
+  text-align: center;
+}
+.font {
+  font-family: sans-serif;
+}
+.size {
+  width: 1000px;
+}
