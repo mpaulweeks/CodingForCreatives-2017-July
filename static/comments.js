@@ -58,13 +58,13 @@ CFC.Comments.FilterAndDisplay = function (key, selectorId, filterFunc){
   });
 }
 
-CFC.Comments.Setup = function (key){
+CFC.Comments.Setup = function (key, formId){
   if(!!window.performance && window.performance.navigation.type === 2)
   {
     // got here via back button, force reload
     window.location.reload();
   } else {
-    var formElm = document.getElementById("comments-form");
+    var formElm = document.getElementById(formId || "comments-form");
     formElm.setAttribute("method", "post");
     formElm.setAttribute("action", `http://postboard.mpaulweeks.com/comments/cfc/${key}`);
     CFC.Comments.GetAndDisplay(key);

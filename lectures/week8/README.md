@@ -2,7 +2,12 @@
 
 ## Review
 
+- Backend and how comments.js works
+
 ## Lecture
+
+- Servers vs DNS
+- Configuring a DNS
 
 - Talk about software engineering
   - Product teams
@@ -13,8 +18,6 @@
     - Frontend development
     - Testing
   - [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)
-- Servers vs DNS
-- Configuring a DNS
 - Unicode
 - Anti-Virus
 
