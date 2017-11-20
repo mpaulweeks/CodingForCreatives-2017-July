@@ -3,6 +3,8 @@
 ## Review
 
 - Backend and how comments.js works
+  - [Multiple comments example](/comments)
+- URL Params
 
 ## Lecture
 
