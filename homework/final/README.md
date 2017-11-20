@@ -16,7 +16,8 @@ The goal is to have something written down we can discuss, so I can tell you ahe
 Deadline: 5pm on Sunday, November 26
 
 Requirements:
-- Upload at least 1 file of code, as a progress report
+- Add a link to your new repo on your final document (the same one from last week)
+- Upload at least 1 file of code to your repo, as a progress report
 
 This is so I can get a picture of the direction you're taking, and we can discuss technical challenges.
 

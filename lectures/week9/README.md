@@ -10,5 +10,5 @@
 
 ## Homework
 
-- Fill out Feedback Survey
-- Continue working on your [Final Project](/homework/final)
+- Fill out Feedback Survey (link TBA)
+- Finish your [Final Project](/homework/final)
