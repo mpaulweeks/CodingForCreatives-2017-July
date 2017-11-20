@@ -1,0 +1,9 @@
+.hidden {
+  display: none;
+}
+
+.myaudioplayer {
+  position: fixed;
+  top:130px;
+  left:55px;
+}
