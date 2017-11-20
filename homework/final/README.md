@@ -32,9 +32,10 @@ Requirements:
 
 Each project's requirements will vary based on the job they're trying to tackle, but all of them must satisfy at least these criteria:
 
-- One `index.html` file
-- One `CSS` file
+- An `index.html` file
+  - Zero or more other `HTML` files
+  - Each `HTML` file must have a `<title>`, `<favicon>`, and working `<meta>` tags
+- One or more `CSS` files
 - One or more `JS` files
-- Each `HTML` file must have a `<title>` and `<favicon>`
 - All links/images must work
-- No javascript errors during expected use
+- No javascript errors in the inspection console during expected use
