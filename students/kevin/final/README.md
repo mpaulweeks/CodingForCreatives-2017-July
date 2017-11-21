@@ -9,3 +9,8 @@ Finally! For my final I would like to put togethere a sinmple portfolio that can
 Should be doable, I expect a lot of polish when it comes to consistent styling across pages.
 
 Make a sketch markup of the structure of your site in class and we can review it together near the end.
+
+
+LINK to my website:
+
+https://kbreen55.github.io/final/.
