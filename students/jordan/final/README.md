@@ -11,3 +11,5 @@ Wow! Great critique!
 Re-designing the front page or similar static pages would be a great challenge and doable with your skills!
 
 Let's discuss which pages in person.
+
+https://jorjorb3.github.io/mas/
