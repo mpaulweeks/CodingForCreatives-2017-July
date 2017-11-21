@@ -13,3 +13,9 @@ Does this seem like enough for the Final Assignment?
 That sounds like a great idea.
 
 Let's discuss 1-on-1 in class whether it makes sense to do with one page or multiple, and the pros/cons therein.
+
+## Week 8
+
+Normal HTML page, relative positions.
+
+Creat carousel by making all "pages" CSS `display: none;`, and then add/remove a class (like in slideshow) to grants it `display: block;`
