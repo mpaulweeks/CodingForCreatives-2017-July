@@ -14,3 +14,29 @@ Make a sketch markup of the structure of your site in class and we can review it
 LINK to my website:
 
 https://kbreen55.github.io/final/.
+
+
+## Week 8
+
+Portfolio site, where individual pages/companies had a slideshow page
+
+Start with header, use shell pages with "Coming soon" for anything to flesh out later
+
+Floating button for contact info, ensure that when expanded is readable
+
+Evenly spaced rows of images that link to slideshow pages
+
+Add hover state for images to indicate they are clickable
+```css
+.image {
+  width: 50px;
+}
+.image:hover {
+  width: 60px;
+  border: 2px solid pink;
+}
+```
+
+For next week:
+- Landing page with spaced images
+- One working slideshow page
