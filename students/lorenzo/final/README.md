@@ -16,3 +16,11 @@ pop up that stays on top of the right ottom corner with insta and portfolio.
 Really interesting idea, though the storing of state introduced a few wrinkles.
 
 I will make it part of the lecture tomorrow, and then we can discuss what makes sense as a compromise for your site.
+
+## Week 8
+
+Portfolio + Slides combo, where each slide has info/picture/comments/etc
+
+TODO Lorenzo: get copy/images all set
+
+TODO Paul: investigate storage options that are better than comments
