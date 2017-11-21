@@ -13,3 +13,12 @@ Re-designing the front page or similar static pages would be a great challenge a
 Let's discuss which pages in person.
 
 https://jorjorb3.github.io/mas/
+
+## Week 8
+
+Try to make a page with student's perspective on MAS, useful shareable resource for Q1 students.
+
+For fun animations, try using AOS:
+- https://michalsnik.github.io/aos/
+- https://github.com/michalsnik/aos
+- Download this [JS file](https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js), import it in the <head> like you do other JS files before
