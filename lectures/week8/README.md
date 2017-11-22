@@ -4,31 +4,17 @@
 
 - Backend and how comments.js works
   - [Multiple comments example](/comments)
-- URL Params
 
 ## Lecture
 
-- Servers vs DNS
-- Configuring a DNS
-
-- Talk about software engineering
-  - Product teams
-  - Getting a software project shipped
-    - Product design
-    - UX design
-    - Backend development
-    - Frontend development
-    - Testing
-  - [The Mythical Man-Month](https://en.wikipedia.org/wiki/The_Mythical_Man-Month)
-- Unicode
-- Anti-Virus
+- URL Params
 
 ## Workshop
 
 - Setting up your own project/web page hosted by GitHub
 - Begin [Final Project](/homework/final) in class
+- Pairing with each student to review their ideas
 
 ## Homework
 
-- Setup a "hello world" page, hosted on GitHub
-- Begin working on your [Final Project](/homework/final)
+- [Week 8 of Final Project](/homework/final)
