@@ -17,4 +17,4 @@
 
 ## Homework
 
-- [Week 8 of Final Project](/homework/final)
+- [Week 8 of Final Project](/homework/final#week-8---begin-prototyping)
