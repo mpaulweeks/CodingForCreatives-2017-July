@@ -24,4 +24,4 @@ Discussed options for interactive media site
 
 Leaning towards pattern site, similar to http://catsuki.mpaulweeks.com/
 
-Paul TODO: clean up that code and share with Sofia
+Code for Catsuki: https://github.com/mpaulweeks/catsuki
