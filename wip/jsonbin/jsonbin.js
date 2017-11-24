@@ -7,7 +7,7 @@ class JsonBinInfo {
   }
 
   newId(){
-    return new Date().getTime();
+    return "" + new Date().getTime();
   }
 
   getUrl(){
@@ -122,6 +122,15 @@ class Comments {
       self.create();
       return false;
     });
+    self.viewElm.addEventListener('click', event => {
+      const elm = event.target;
+      if (elm && elm.matches("a.comment-delete")) {
+        const id = elm.dataset.id;
+        delete elm.dataset.id;
+        elm.innerHTML="working... "
+        self.delete(id);
+      }
+    });
   }
 
   hideForm(){
@@ -145,7 +154,9 @@ class Comments {
   }
 
   delete(id){
-    this.info.delete(this.key, id, () => this.get());
+    if (id){
+      this.info.delete(this.key, id, () => this.get());
+    }
   }
 
   create(){
