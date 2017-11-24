@@ -1,61 +1,72 @@
-CFC = window;
-CFC.Comments = Comments;
 
 class JsonBinInfo {
   constructor(binId, secretKey){
     this.binId = binId;
     this.secretKey = secretKey;
     this.cached = null;
-    // cache on get + after save
-    // bust cache when getting before save, to remove race conditions
   }
 
   newId(){
     return new Date().getTime();
   }
 
-  url(){
+  getUrl(){
+    return `https://api.jsonbin.io/b/${this.binId}/latest`;
+  }
+
+  saveUrl(){
     return `https://api.jsonbin.io/b/${this.binId}`;
   }
 
   headers(){
-    return {
-      'secret-key': this.secretKey,
-    };
+    const h = new Headers();
+    h.append('content-type', 'application/json');
+    if (this.secretKey){
+      h.append('secret-key', this.secretKey);
+    }
+    return h;
   }
 
   get(callback){
     const self = this;
     if (self.cached){
+      console.log(self.cached);
       callback(self.cached);
     } else {
-      // todo fetch with headers
-      fetch(self.url())
-        .then(response => {
-          return response.json();
-        })
-        .then(data => {
-          console.log(data);
-          self.cached = data;
-          callback(data);
-        });
-      }
-  }
-
-  save(data, callback){
-    // todo fetch with headers
-    // todo PUT
-    // todo use json as data
-    const self = this;
-    const json = JSON.stringify(data);
-    fetch(self.url())
+      fetch(self.getUrl(), {
+        method: 'GET',
+        headers: self.headers(),
+        // mode: 'cors',
+      })
       .then(response => {
         return response.json();
       })
       .then(data => {
+        console.log(data);
         self.cached = data;
         callback(data);
       });
+    }
+  }
+
+  save(data, callback){
+    const self = this;
+    const json = JSON.stringify(data);
+    fetch(self.saveUrl(), {
+      method: 'PUT',
+      headers: self.headers(),
+      // mode: 'cors',
+      body: json,
+    })
+    .then(response => {
+      console.log(response);
+      return response.json();
+    })
+    .then(success => {
+      console.log(success);
+      self.cached = success.data;
+      callback(success.data);
+    });
   }
 
   getByKey(key, callback){
@@ -72,7 +83,9 @@ class JsonBinInfo {
       let posts  = data[key] || [];
       posts.push(blob);
       data[key] = posts;
-      self.save(data, callback);
+      self.save(data, saved => {
+        callback(saved[key]);
+      });
     })
   }
 
@@ -83,7 +96,9 @@ class JsonBinInfo {
       let posts = data[key] || [];
       posts = posts.filter(b => b.id !== id);
       data[key] = posts;
-      self.save(data, callback);
+      self.save(data, saved => {
+        callback(saved[key]);
+      });
     })
   }
 }
@@ -92,11 +107,31 @@ class Comments {
   constructor(info, key, viewId, formId){
     this.info = info;
     this.key = key;
+    this.formElm = document.getElementById(formId);
     this.viewElm = document.getElementById(viewId);
+    this.loadElm = document.createElement('div');
+    this.loadElm.innerHTML = 'loading...';
+    this.formElm.parentNode.insertBefore(this.loadElm, this.formElm);
+    this.hideForm();
     this.get();
 
-    const formElm = document.getElementById(formId);
-    // todo setup onSubmit
+    const self = this;
+    self.formElm.addEventListener('submit', event => {
+      event.preventDefault();
+      self.hideForm();
+      self.create();
+      return false;
+    });
+  }
+
+  hideForm(){
+    this.formElm.classList.add('comment-form-hidden');
+    this.loadElm.classList.remove('comment-form-hidden');
+  }
+
+  showForm(){
+    this.formElm.classList.remove('comment-form-hidden');
+    this.loadElm.classList.add('comment-form-hidden');
   }
 
   get(){
@@ -105,6 +140,7 @@ class Comments {
       const commentHtml = self.generateHtml(comments);
       // todo setup delete listeners
       self.viewElm.innerHTML = commentHtml;
+      this.showForm();
     });
   }
 
@@ -112,11 +148,15 @@ class Comments {
     this.info.delete(this.key, id, () => this.get());
   }
 
-  create(formElm){
+  create(){
     const blob = {
-      // todo extract name/text from formElm
+      name: this.formElm.elements.name.value,
+      text: this.formElm.elements.text.value,
     };
-    this.info.create(this.key, blob, () => this.get());
+    this.info.create(this.key, blob, () => {
+      this.get();
+      this.showForm();
+    });
   }
 
   generateHtml(comments){
