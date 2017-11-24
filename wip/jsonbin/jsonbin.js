@@ -6,7 +6,7 @@ class JsonBinInfo {
     this.binId = binId;
     this.secretKey = secretKey;
     this.cached = null;
-    // cache on get, after save
+    // cache on get + after save
     // bust cache when getting before save, to remove race conditions
   }
 
