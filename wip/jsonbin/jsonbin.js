@@ -1,3 +1,13 @@
+/*
+M. Paul Weeks
+Coding for Creatives
+November 2017
+
+// Example Usage:
+const info = new JsonBinInfo('5a182c04739a5766fa408102');
+new Comments(info, "Art1", "comments-view-1", "comments-form-1");
+new Comments(info, "Art2", "comments-view-2", "comments-form-2");
+*/
 
 class JsonBinInfo {
   constructor(binId, secretKey){
@@ -30,7 +40,6 @@ class JsonBinInfo {
   get(callback){
     const self = this;
     if (self.cached){
-      console.log(self.cached);
       callback(self.cached);
     } else {
       fetch(self.getUrl(), {
@@ -42,7 +51,6 @@ class JsonBinInfo {
         return response.json();
       })
       .then(data => {
-        console.log(data);
         self.cached = data;
         callback(data);
       });
@@ -59,11 +67,9 @@ class JsonBinInfo {
       body: json,
     })
     .then(response => {
-      console.log(response);
       return response.json();
     })
     .then(success => {
-      console.log(success);
       self.cached = success.data;
       callback(success.data);
     });
