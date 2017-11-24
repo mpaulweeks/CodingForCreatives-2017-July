@@ -23,4 +23,4 @@ Portfolio + Slides combo, where each slide has info/picture/comments/etc
 
 TODO Lorenzo: get copy/images all set
 
-TODO Paul: investigate storage options that are better than comments
+UPDATE: See [jsonbin](/wip/jsonbin) code, brittle but better comments solution
