@@ -1,0 +1,21 @@
+4 lines (3 sloc)  29 Bytes
+.hidden {
+display: none;
+}
+
+body{
+  background-color: #FC4098;
+  color: #FBA9CF;
+  text-align: center;
+  font-style: normal;
+  font-family: Raleway;
+  font-variant: small-caps;
+  font-size: 80pt;
+
+}
+
+.if{
+font-size: 20pt;
+color: #FBA9CF;
+font-family: sans-serif;
+}
