@@ -11,3 +11,5 @@ Let's discuss metrics for success and figure out how I will review your work.
 Think about making another goofy, JS-centric site (like jukebox), but use bootstrap this time to experiment with building on top of someone else's styles.
 
 [Bootstrap 3.3 docs](http://getbootstrap.com/docs/3.3/components/)
+
+I forget how to link things on Github but my WIP is at foxfoot1/final/index.html on GitHub
