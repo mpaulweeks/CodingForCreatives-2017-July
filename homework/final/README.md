@@ -27,8 +27,7 @@ This is also when I'll set explicit requirements for each individual project (eg
 
 Deadline: 7pm on Monday, December 4th
 
-Requirements:
-- Upload your completed project before class, we will be doing live demos.
+Upload your completed project before class, we will be doing live demos
 
 Each project's requirements will vary based on the job they're trying to tackle, but all of them must satisfy at least these criteria:
 
@@ -39,3 +38,7 @@ Each project's requirements will vary based on the job they're trying to tackle,
 - One or more `JS` files
 - All links/images must work
 - No javascript errors in the inspection console during expected use
+
+The goal is to make something professional and polished
+
+### IF YOUR SITE IS NOT PUBLICLY ACCESSIBLE OR IS BROKEN, YOU WILL FAIL THE FINAL
