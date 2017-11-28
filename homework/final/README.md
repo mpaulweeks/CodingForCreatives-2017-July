@@ -25,10 +25,10 @@ This is also when I'll set explicit requirements for each individual project (eg
 
 ## Week 9 - Submit the Final Project
 
-Deadline: 5pm on Sunday, December 3rd
+Deadline: 7pm on Monday, December 4th
 
 Requirements:
-- Upload your completed project by 5pm so I can review it before we do demos the next day in class.
+- Upload your completed project before class, we will be doing live demos.
 
 Each project's requirements will vary based on the job they're trying to tackle, but all of them must satisfy at least these criteria:
 

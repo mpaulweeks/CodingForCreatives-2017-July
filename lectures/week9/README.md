@@ -2,7 +2,16 @@
 
 ## Review
 
+- Discuss expectations/deadline for final
+
 ## Lecture
+
+- Starting a software business
+  - Protecting IP
+  - Contractors vs Fulltime Developers
+  - Equity as Compensation
+  - Tech Recruiting
+- Setting up DNS, example with Hover
 
 ## Workshop
 
@@ -10,5 +19,4 @@
 
 ## Homework
 
-- Fill out Feedback Survey (link TBA)
 - Finish your [Final Project](/homework/final)
