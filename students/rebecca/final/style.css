@@ -1,0 +1,94 @@
+.header {
+  background-color: #efebeb;
+}
+
+body {
+  margin: 0px;
+  color: black;
+  background-color: white;
+  text-align: center;
+  font-size: 60px;
+  font-style: normal;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-weight: bold;
+  overflow-x: hidden;
+
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('HelveticaNeueLTStd-UltLt.otf');
+}
+.helvetica {
+  margin: 0px;
+  font-family: 'Helvetica'
+}
+.text {
+  color: grey;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: lighter;
+
+}
+
+.navleft {
+  position: absolute;
+  top: 1300px;
+  left: 45.5%;
+  z-index: 10;
+  color: grey;
+  font-size: 26px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-variant: normal;
+}
+
+.navright {
+  position: absolute;
+  top: 1300px;
+  left: 55.5%;
+  z-index: 10;
+  color: grey;
+  font-size: 26px;
+  font-family: sans-serif;
+  font-style: normal;
+  font-variant: normal;
+}
+
+.samplephotos {
+  width: 30%;
+  height: 40%;
+  padding-left: 3%;
+  padding-right: 3%;
+
+}
+
+.slide {
+  font-size: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  position: absolute;
+  height: 55%;
+  width: 100%;
+  background-color: #efebeb;
+  color: black;
+
+  transition-property: left;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+
+  top: 800px;
+  left: 500%;
+}
+.slide-visible {
+  left: 0%;
+
+}
