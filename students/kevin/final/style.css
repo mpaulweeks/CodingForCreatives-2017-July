@@ -1,0 +1,520 @@
+
+body {
+  margin: 20px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.smaller {
+  width: 100%;
+  border-style: inset;
+  border-color: #c8d9f4;
+  border-width: 50px;
+  box-sizing: border-box;
+}
+
+.preview {
+  display: inline-block;
+}
+
+.grid{
+  text-align: center;
+}
+
+.responsive {
+  width: 400px;
+}
+
+.responsive2 {
+margin: auto;
+width: 50%;
+padding-left: 300px;
+}
+
+.responsive3 {
+
+margin: auto;
+width: 100%;
+}
+
+
+
+.navbar {
+  font-size: 30px;
+  font-family: sans-serif;
+  background-color: white;
+
+}
+
+.nav-link {
+  text-decoration: none;
+  padding-left: 100px;
+  color: grey;
+  font-size: 20px;
+  font-family: monospace;
+
+}
+.nav-link:hover {
+  background-color: white;
+  color: darkgrey;
+}
+
+.home {
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+.title {
+  font-size: 40px;
+  font-family: sans-serif;
+  color: darkgrey
+}
+.slide {
+  font-size: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+
+  transition-property: left;
+  transition-delay: 0s;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+
+  left: 100%;
+}
+.slide-visible {
+  left: 0%;
+}
+  #pietroslide1 {
+  background-image: url("20.jpg");
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+  font-size:70;
+}
+
+  #pietroslide2 {
+    background-image: url("16copy.jpg");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 50%;
+  }
+
+  #pietroslide3 {
+    background-image: url("7copy.jpg");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 50%;
+  }
+
+  #pietroslide4 {
+    background-image: url("4copy.jpg");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 50%;
+  }
+
+  #pietroslide5 {
+    background-image: url("2copy.jpg");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 30%;
+  }
+
+  #pietroslide6 {
+    background-image: url("17copy.jpg");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 50%;
+  }
+
+  #pietroslide7 {
+    background-image: url("22copy.jpg");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 50%;
+  }
+
+  #pietroslide8 {
+    background-image: url("19copy.jpg");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 50%;
+  }
+
+
+
+  #haileyslide1 {
+  background-image: url("980x.jpg");
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: 50%;
+  }
+
+  #haileyslide2 {
+    background-image: url("980x4copy.jpg");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 50%;
+  }
+
+  #haileyslide3 {
+    background-image: url("980x6copy.jpg");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 50%;
+  }
+
+  #haileyslide4 {
+    background-image: url("980x9copy.jpg");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 50%;
+  }
+
+  #haileyslide5 {
+    background-image: url("980x6copy.jpg");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 30%;
+  }
+
+  #haileyslide6 {
+    background-image: url("980x5copy.jpg");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 50%;
+  }
+
+  #haileyslide7 {
+    background-image: url("980x3copy.jpg");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 50%;
+  }
+
+  #haileyslide8 {
+    background-image: url("980x2copy.jpg");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 50%;
+  }
+  #haileyslide9 {
+    background-image: url("980x1copy.jpg");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 50%;
+  }
+
+
+    #guccislide1 {
+    background-image: url("s3.jpg");
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: 50%;
+    }
+
+    #guccislide2 {
+      background-image: url("s12.jpg");
+      -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: 50%;
+    }
+
+    #guccislide3 {
+      background-image: url("s4.jpg");
+      -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: 50%;
+    }
+
+    #guccislide4 {
+      background-image: url("s5.jpg");
+      -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: 50%;
+    }
+
+    #guccislide5 {
+      background-image: url("s6.jpg");
+      -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: 30%;
+    }
+
+    #guccislide6 {
+      background-image: url("s7.jpg");
+      -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: 50%;
+    }
+
+    #guccislide7 {
+      background-image: url("s9.jpg");
+      -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: 50%;
+    }
+
+    #guccislide8 {
+      background-image: url("s13.jpg");
+      -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: 50%;
+    }
+    #guccislide9 {
+      background-image: url("s14.jpg");
+      -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: 50%;
+    }
+    #guccislide10 {
+      background-image: url("s11.jpg");
+      -webkit-background-size: cover;
+       -moz-background-size: cover;
+       -o-background-size: cover;
+       background-size: 50%;
+    }
+
+        #gardenslide1 {
+        background-image: url("garden1.jpg");
+        -webkit-background-size: cover;
+         -moz-background-size: cover;
+         -o-background-size: cover;
+         background-size: 50%;
+        }
+
+        #gardenslide2 {
+          background-image: url("garden2.jpg");
+          -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: 50%;
+        }
+
+        #gardenslide3 {
+          background-image: url("garden3.jpg");
+          -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: 50%;
+        }
+
+        #gardenslide4 {
+          background-image: url("garden4.jpg");
+          -webkit-background-size: cover;
+           -moz-background-size: cover;
+           -o-background-size: cover;
+           background-size: 50%;
+        }
+
+            #chicoslide1 {
+            background-image: url("c1.png");
+            -webkit-background-size: cover;
+             -moz-background-size: cover;
+             -o-background-size: cover;
+             background-size: 50%;
+            }
+
+            #chicoslide2 {
+              background-image: url("c2.png");
+              -webkit-background-size: cover;
+               -moz-background-size: cover;
+               -o-background-size: cover;
+               background-size: 50%;
+            }
+
+            #chicoslide3 {
+              background-image: url("c3.png");
+              -webkit-background-size: cover;
+               -moz-background-size: cover;
+               -o-background-size: cover;
+               background-size: 50%;
+            }
+
+            #chicoslide4 {
+              background-image: url("c4.png");
+              -webkit-background-size: cover;
+               -moz-background-size: cover;
+               -o-background-size: cover;
+               background-size: 50%;
+            }
+
+            #chicoslide5 {
+              background-image: url("c5.png");
+              -webkit-background-size: cover;
+               -moz-background-size: cover;
+               -o-background-size: cover;
+               background-size: 30%;
+            }
+
+            #chicoslide6 {
+              background-image: url("c6.png");
+              -webkit-background-size: cover;
+               -moz-background-size: cover;
+               -o-background-size: cover;
+               background-size: 50%;
+            }
+
+            #chicoslide7 {
+              background-image: url("c7.png");
+              -webkit-background-size: cover;
+               -moz-background-size: cover;
+               -o-background-size: cover;
+               background-size: 50%;
+            }
+
+            #chicoslide8 {
+              background-image: url("c8.png");
+              -webkit-background-size: cover;
+               -moz-background-size: cover;
+               -o-background-size: cover;
+               background-size: 50%;
+            }
+            #chicoslide9 {
+              background-image: url("c10.png");
+              -webkit-background-size: cover;
+               -moz-background-size: cover;
+               -o-background-size: cover;
+               background-size: 50%;
+            }
+
+            #camslide1 {
+            background-image: url("cam7copy.jpg");
+            -webkit-background-size: cover;
+             -moz-background-size: cover;
+             -o-background-size: cover;
+             background-size: 50%;
+            }
+
+            #camslide2 {
+              background-image: url("cam1copy.jpg");
+              -webkit-background-size: cover;
+               -moz-background-size: cover;
+               -o-background-size: cover;
+               background-size: 50%;
+            }
+
+            #camslide3 {
+              background-image: url("cam2copy.jpg");
+              -webkit-background-size: cover;
+               -moz-background-size: cover;
+               -o-background-size: cover;
+               background-size: 50%;
+            }
+
+            #camslide4 {
+              background-image: url("cam3copy.jpg");
+              -webkit-background-size: cover;
+               -moz-background-size: cover;
+               -o-background-size: cover;
+               background-size: 50%;
+            }
+
+            #camslide5 {
+              background-image: url("cam4copy.jpg");
+              -webkit-background-size: cover;
+               -moz-background-size: cover;
+               -o-background-size: cover;
+               background-size: 30%;
+            }
+
+            #camslide6 {
+              background-image: url("cam5copy.jpg");
+              -webkit-background-size: cover;
+               -moz-background-size: cover;
+               -o-background-size: cover;
+               background-size: 50%;
+            }
+
+            #camslide7 {
+              background-image: url("cam6copy.jpg");
+              -webkit-background-size: cover;
+               -moz-background-size: cover;
+               -o-background-size: cover;
+               background-size: 50%;
+            }
+
+            #camslide8 {
+              background-image: url("cam8.jpg");
+              -webkit-background-size: cover;
+               -moz-background-size: cover;
+               -o-background-size: cover;
+               background-size: 50%;
+            }
+
+            .helper-open {
+              position: fixed;
+              right: 50px;
+              bottom: 50px;
+
+              z-index: -1;
+            }
+            .helper {
+              position: fixed;
+              height: 100px;
+              width: 100px;
+              right: 50px;
+              bottom: 50px;
+              border: 2px solid pink;
+        
+
+              z-index: -1;
+            }
+            .on-top {
+              z-index: 1;
+            }
+
+@media (max-width: 600px){
+  .responsive {
+    background-color: salmon;
+  }
+  .nav-link {
+    display: block;
+    padding-left: 20px;
+  }
+  body {
+    margin: 0px;
+  }
+
+  .nav {
+    position: fixed;
+    top: 10px;
+    left: 100px;
+    z-index: 10;
+  }
