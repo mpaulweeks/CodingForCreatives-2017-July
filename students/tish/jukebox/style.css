@@ -6,7 +6,7 @@ display: none;
 }
 
 body{
-  background-color: white;
+  background-color: red;
   text-align: center;
   font-style: normal;
   font-size: 50px;
@@ -16,6 +16,6 @@ body{
 
 .if{
 font-size: 200px;
-color: white;
+color: red;
 font-family: 'futura', sans-serif;
 }
