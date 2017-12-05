@@ -18,10 +18,15 @@
       var sHtml = `<td class="projects-name">${s}</td>`;
       roster.projects.forEach(p => {
         if (p === 'final'){
-          sHtml += `
-            <td class="projects-cell">
-              <a target="_blank" href="https://github.com/mpaulweeks/cfc2017/tree/master/students/${s}/${p}">docs</a>
-            </td>`;
+          const fi = roster.finals[s];
+          if (fi){
+            sHtml += `
+              <td class="projects-cell">
+                <a target="_blank" href="https://github.com/mpaulweeks/cfc2017/tree/master/students/${s}/${p}">docs</a>
+                <a target="_blank" href="https://github.com/${fi.github}/${fi.repo}">code</a>
+                <a target="_blank" href="https://${fi.github}.github.io/${fi.repo}/">site</a>
+              </td>`;
+          }
         } else {
           sHtml += `
             <td class="projects-cell">
