@@ -1,7 +1,9 @@
 # Coding for Creatives Syllabus
 
 Miami Ad School
+
 October 2017
+
 M. Paul Weeks
 
 ## Week 1
@@ -17,7 +19,7 @@ M. Paul Weeks
 - Introduction to CSS
 - Demo Chrome dev tools
 
-### Homework
+#### Homework
 
 - Biography page
 
@@ -32,7 +34,7 @@ M. Paul Weeks
 - Continue HTML discussion
 - Linking to a JS file
 
-### Homework
+#### Homework
 
 - Blog page with working comments section
 
@@ -44,7 +46,7 @@ M. Paul Weeks
 - Multiple pages with a shared banner
 - Hover states and conditional CSS
 
-### Homework
+#### Homework
 
 - Multi-page Portfolio site with interconnected links, reusing the same CSS
 
@@ -57,7 +59,7 @@ M. Paul Weeks
 - Introduction to JS via Canvas
   - Numbers vs Strings
 
-### Homework
+#### Homework
 
 - Website with a picture, painted using JS
 
@@ -70,7 +72,7 @@ M. Paul Weeks
   - If statements
   - `setInterval(func, 1000)`
 
-### Homework
+#### Homework
 
 - Interactive "Cookie Clicker" game
 
@@ -85,7 +87,7 @@ M. Paul Weeks
 - Re-using Passwords and Phishing
 - Password strength
 
-### Homework
+#### Homework
 
 - Interactive art gallery / slideshow
 
@@ -98,7 +100,7 @@ M. Paul Weeks
 - `<audio>` elements
 - Embedding YouTube and `&autoplay=1`
 
-### Homework
+#### Homework
 
 - Jukebox website
 
@@ -107,7 +109,7 @@ M. Paul Weeks
 - URL Params
 - Setting up your own project/web page hosted by GitHub
 
-### Homework
+#### Homework
 
 - Begin working on Final Project
 
@@ -120,7 +122,7 @@ M. Paul Weeks
   - Tech Recruiting
 - Setting up DNS vs Hosting
 
-### Homework
+#### Homework
 
 - Finish the Final Project
 
